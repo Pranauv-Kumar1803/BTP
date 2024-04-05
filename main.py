@@ -56,5 +56,14 @@ def main(dns: Annotated[str, typer.Option(help="This option is used for doing a 
         zapSpider(z)
     
 if __name__ == "__main__":
-    typer.run(main)
+    # typer.run(main)
+    with open(f'1712313377.49659.json', 'r') as file:
+            data = file.read()
+            json_data = json.loads(data)
+
+    for j in json_data:
+        if j['type'] != 'ScanInfo' and j['type']!='Text':
+            ip = [j['address']]
+            print(ip)
+            os.system(f'nikto -h {ip[0]}')
     
