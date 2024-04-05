@@ -2,7 +2,7 @@ from typing import Tuple
 import typer
 from typing_extensions import Annotated
 import os
-
+import json
 import time
 from pprint import pprint
 from zapv2 import ZAPv2
@@ -33,14 +33,28 @@ def main(dns: Annotated[str, typer.Option(help="This option is used for doing a 
     domain = dns
     z = zap
     if dns:
-        os.system('echo "Starting dnsrecon......." ')
-        os.system('dnsrecon -d '+domain)
+        fileName = time.time()
+        os.system('echo Starting dnsrecon....... ')
+        os.system(f'dnsrecon -d {domain} -j {fileName}.json')
+
+        with open(f'{fileName}.json', 'r') as file:
+            data = file.read()
+            json_data = json.loads(data)
+
+        l=[]
+        for j in json_data:
+            if j['type'] == 'A':
+                l += [j['address']]
+
+        print('The IP addresses of the domain name given are: ', l)
         os.system('echo "dnsrecon finsished successfully!" ')
 
     if z:
         print(z)
         os.system('echo Starting ZAP Proxy ACtive Scan....... ')
+        os.system('E:')
         zapSpider(z)
     
 if __name__ == "__main__":
     typer.run(main)
+    
