@@ -8,7 +8,7 @@ import subprocess
 from pprint import pprint
 from zapv2 import ZAPv2
 
-zap_api_key = 'lkssshb47bkq8d04gm4p8gabj9'
+zap_api_key = '2fcmdarba4478gn2rijv67qrti'
 
 def start_zap_daemon():
     # for windows
@@ -17,23 +17,30 @@ def start_zap_daemon():
         subprocess.run(f'zap.bat -daemon', shell=True)
     # for Linux based systems
     else: 
-        subprocess.Popen(['gnome-terminal', '--', 'bash', '-c',
-                          '{} -daemon &'.format(zap_path)])
+        subprocess.Popen(['zaproxy' ,'-daemon'])
 
 def zap_scan(target, api_key):
     zap = ZAPv2(apikey=api_key, proxies={
                 'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'})
 
-    print('Passive Scanning target {}'.format(target))
-    zap.ascan.scan(target, scanpolicyname="Default Policy")
-    while int(zap.ascan.status()) < 100:
-        print('Active Scan progress %: {}'.format(zap.ascan.status()))
+    print('Spidering target {}'.format(target))
+    zap.spider.scan(target)
+    while int(zap.spider.status()) < 100:
+        # Loop until the spider has finished
+        print('Spider progress %: {}'.format(zap.spider.status()))
         time.sleep(5)
-    print('Active Scan completed')
+    print('Spider completed')
 
-    print('Alerts: ')
-    for alert in zap.core.alerts(baseurl=target):
-        print(alert)
+    # print('Passive Scanning target {}'.format(target))
+    # zap.ascan.scan(target, scanpolicyname="Default Policy")
+    # while int(zap.ascan.status()) < 100:
+    #     print('Active Scan progress %: {}'.format(zap.ascan.status()))
+    #     time.sleep(5)
+    # print('Active Scan completed')
+
+    # print('Alerts: ')
+    # for alert in zap.core.alerts(baseurl=target):
+    #     print(alert)
 
 def generate_zap_report(api_key):
     zap = ZAPv2(apikey=api_key, proxies={
