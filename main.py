@@ -4,30 +4,46 @@ from typing_extensions import Annotated
 import os
 import json
 import time
+import subprocess
 from pprint import pprint
 from zapv2 import ZAPv2
 
-def zapSpider(str):
-    print("inside ",str)
-    apiKey = 'lkssshb47bkq8d04gm4p8gabj9'
-    target = 'https://public-firing-range.appspot.com'
-    zap = ZAPv2(apikey=apiKey, proxies={'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'})
+zap_api_key = 'lkssshb47bkq8d04gm4p8gabj9'
 
-    print('Active Scan target {}'.format(target))
+def start_zap_daemon():
+    # for windows
+    if os.name == 'nt':
+        os.chdir("E:/Zed Attack Proxy")
+        subprocess.run(f'zap.bat -daemon', shell=True)
+    # for Linux based systems
+    else: 
+        subprocess.Popen(['gnome-terminal', '--', 'bash', '-c',
+                          '{} -daemon &'.format(zap_path)])
 
-    scanID = zap.ascan.scan(target)
-    print(scanID)
+def zap_scan(target, api_key):
+    zap = ZAPv2(apikey=api_key, proxies={
+                'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'})
 
-    while int(zap.ascan.status(scanID)) < 100:
-        print('Scan progress %: {}'.format(zap.ascan.status(scanID)))
+    print('Passive Scanning target {}'.format(target))
+    zap.ascan.scan(target, scanpolicyname="Default Policy")
+    while int(zap.ascan.status()) < 100:
+        print('Active Scan progress %: {}'.format(zap.ascan.status()))
         time.sleep(5)
+    print('Active Scan completed')
 
-    print('Scan has completed!')
-
-    print('Hosts: {}'.format(', '.join(zap.core.hosts)))
     print('Alerts: ')
-    pprint(zap.core.alerts(baseurl=target))
+    for alert in zap.core.alerts(baseurl=target):
+        print(alert)
 
+def generate_zap_report(api_key):
+    zap = ZAPv2(apikey=api_key, proxies={
+                'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'})
+
+    json_report = zap.core.jsonreport()
+    fileName = time.time()
+    with open(f'{fileName}_zap.json', 'w') as fp:
+        fp.write(json_report)
+        print("ZAP scan report saved as json file")
 
 def main(dns: Annotated[str, typer.Option(help="This option is used for doing a DNS recon on a given domain name.\n Use this option followed by a domain name to get details of DNS records associated with that domain")] = "", zap: Annotated[str, typer.Option(help="This option is used for doing a ZAP Spider Active Scan on a given target.\n Use this option followed by a domain name to do an active scan on the domain")] = "" ):
     domain = dns
@@ -51,9 +67,10 @@ def main(dns: Annotated[str, typer.Option(help="This option is used for doing a 
 
     if z:
         print(z)
-        os.system('echo Starting ZAP Proxy ACtive Scan....... ')
-        os.system('E:')
-        zapSpider(z)
+        os.system('echo Starting ZAP Daemon and scanning the target...... ')
+        start_zap_daemon()
+        zap_scan(z, zap_api_key)
+        generate_zap_report(zap_api_key)
     
 if __name__ == "__main__":
     typer.run(main)
