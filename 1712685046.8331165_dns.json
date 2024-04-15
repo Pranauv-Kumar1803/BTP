@@ -1,0 +1,409 @@
+[
+    {
+        "arguments": "/usr/bin/dnsrecon -d epicgames.com -j 1712685046.8331165_dns.json",
+        "date": "2024-04-09 23:20:48.913966",
+        "type": "ScanInfo"
+    },
+    {
+        "address": "205.251.196.70",
+        "domain": "epicgames.com",
+        "mname": "ns-1094.awsdns-08.org",
+        "type": "SOA"
+    },
+    {
+        "address": "2600:9000:5304:4600::1",
+        "domain": "epicgames.com",
+        "mname": "ns-1094.awsdns-08.org",
+        "type": "SOA"
+    },
+    {
+        "Version": "",
+        "address": "205.251.196.70",
+        "domain": "epicgames.com",
+        "recursive": "True",
+        "target": "ns-1094.awsdns-08.org",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "2600:9000:5304:4600::1",
+        "domain": "epicgames.com",
+        "recursive": "False",
+        "target": "ns-1094.awsdns-08.org",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "205.251.198.184",
+        "domain": "epicgames.com",
+        "recursive": "True",
+        "target": "ns-1720.awsdns-23.co.uk",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "2600:9000:5306:b800::1",
+        "domain": "epicgames.com",
+        "recursive": "False",
+        "target": "ns-1720.awsdns-23.co.uk",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "205.251.193.30",
+        "domain": "epicgames.com",
+        "recursive": "True",
+        "target": "ns-286.awsdns-35.com",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "2600:9000:5301:1e00::1",
+        "domain": "epicgames.com",
+        "recursive": "False",
+        "target": "ns-286.awsdns-35.com",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "205.251.195.224",
+        "domain": "epicgames.com",
+        "recursive": "True",
+        "target": "ns-992.awsdns-60.net",
+        "type": "NS"
+    },
+    {
+        "Version": "",
+        "address": "2600:9000:5303:e000::1",
+        "domain": "epicgames.com",
+        "recursive": "False",
+        "target": "ns-992.awsdns-60.net",
+        "type": "NS"
+    },
+    {
+        "address": "205.220.166.52",
+        "domain": "epicgames.com",
+        "exchange": "mxa-003d3601.gslb.pphosted.com",
+        "type": "MX"
+    },
+    {
+        "address": "205.220.178.52",
+        "domain": "epicgames.com",
+        "exchange": "mxb-003d3601.gslb.pphosted.com",
+        "type": "MX"
+    },
+    {
+        "address": "3.225.111.151",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "18.209.253.10",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "18.208.1.234",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "44.215.252.186",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "54.225.186.10",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "35.171.204.117",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "52.2.69.255",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "address": "34.234.12.31",
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "type": "A"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "42032da9-b071-4eb2-9f09-543fa5c1f1bc",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "42lgh9mv05psfpzhnh5ghvltk23jl3x3",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "adobe-idp-site-verification=8a5be962006abb6a54a07ecebc48df8733bcccf0a5c6b8bcb66f58ad5e8dd604",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "amazonses:Fjz7ufu6NoFnR0B9RR+xM/O5jhL96HNuEKH5Uvplkjc=",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "apple-domain-verification=BbD8rmXa3jDNtmUv",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "atlassian-domain-verification=SoJZyndmWCSCCPEyKf0gxRibYYQGlSvtWMEwAI5JRm0LU2g7e7xW4T2WRM0iahex",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "docker-verification=65ce3125-68dc-47a7-b21f-990fc9034732",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "docker-verification=cb9f1ddd-40a9-4576-93ef-8ae59ff7c7d5",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "docusign=8aeb3bed-7a5a-4426-9573-c591f2763d75",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "dropbox-domain-verification=2ilby6a9nzo9",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "eccbe244aa4a7224a856cd8b5e1c202c67a4a078001b7ae3be87e9336266f37e",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "facebook-domain-verification=kk3uwoh95vf02mfcb2qwxedbo7p8yz",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "favro-verification=V-NywGxbypieZF45kyjzThiPoryuvR0AKHobhB3NAKS",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "flexera-domain-verification-qqpylasstesvucih",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "flexera-domain-verification-xrwrdvjzruqhfvjk",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=2psFqxWeSRjgHc_EmFHu1tQmshXLmK3T6_ys5iEoEJs",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=3maDwZ4Ug5HQOqeaMyoj1j28J8tbo0dxZpqOAt8O31Q",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=A3yJDb7T84eoSpjF0B8TKyau2nvzlvwOK4LpDEYquIY",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=HglIfwQ80JPcWycJvnrEO92ltUb-T_AWeRmUTqphmls",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=IG282xhELJaPtwYW8Qon7TFUPYEZisfD9wv_LV9nMqk",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=IrhtFiudtCwaPOrPeLBSDD3flo-9YJGUrRfTWrvhiKs",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=PWxl2R6xHheMOutaztqgUM_4pw6LghO1kUIK5Ww2Weg",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=XRT98nvNEL5jiVkTZBzKdWyI1d82UE689jLKyMGErfY",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=clMloqbvw3wELgwIpNavaoSvovEqFKmjJ-EiBQBN4gI",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=dPv8RRs_8Q8rv4XUKiEeC9-2BwyBcR3bNCJWHcEOTbM",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=mwb_ECLPBcha42brsmLT_K_tf2ucSDmH5xONvK7vBHo",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "google-site-verification=nYmvTIBl14_A_FDZ8l8xol9FfHkH0v_A0XllEfzbatQ",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "miro-verification=66a6d0d4ec91315544e1c0ab5e73b7a2a174f6f4",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "mongodb-site-verification=mzgv7iTjSdDxjP7l6u6esK19CCxEJBXG",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "onetrust-domain-verification=dab8eac547e3459e871924c3aadb4f1b",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "parsec-domain-verification=td_2FJXi3mBjgjo15nwo8SOye8CcWS",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "postman-domain-verification=f1d59fcc25134f2a9c41e077fbd8f516f0dd63cd739c025e06842f61117fa439",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "rhino_accounts=79422054e012e038f4a50776964ab31f",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "segment-site-verification=CyFwCnSH2fhZkgE1uxRNJy2Zstrt1elG",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "shopify-verification-code=5wGhDD02b6VdNT3GQHQfGR3VybjSYt",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "status-page-domain-verification=pcbm3bplv93j",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "stripe-verification=4520253bd0bedb9fb325908bd94160f2e3abb2f4cc1505bcfbf02e2f088307cf",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "stripe-verification=b757168c4e0a613a1da399dbd32b22138445b15788379298eb61df798158e8ca",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "v=spf1 ip4:199.255.40.0/22 include:_spf.google.com include:amazonses.com include:stspg-customer.com include:mktomail.com include:spf-003d3601.pphosted.com include:_spf.salesforce.com ~all",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "wiz-domain-verification=a20bc10e2eb232d55d6104de83e64b02f714eafd9f35a1390f71a590ab462166",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "wrike-verification=NTM0MjEzMDpjZDM0MWQwN2RkY2JlNjgyODgxZTdiMWVhNWRlY2NkNDMxZDY0NzUyM2VkYTY1NDY0OGEzNWZiM2E4MmUyZjA0",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "epicgames.com",
+        "strings": "yandex-verification: d6267a8485003660",
+        "type": "TXT"
+    },
+    {
+        "domain": "epicgames.com",
+        "name": "_dmarc.epicgames.com",
+        "strings": "v=DMARC1; p=none; sp=reject; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; fo=1; pct=100; rf=afrf",
+        "type": "TXT"
+    },
+    {
+        "address": "52.112.127.17",
+        "domain": "epicgames.com",
+        "name": "_sipfederationtls._tcp.epicgames.com",
+        "port": "5061",
+        "target": "sipfed.online.lync.com",
+        "type": "SRV"
+    }
+]
