@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 301 Moved Permanently\x0aContent-Length: 0\x0aLocation: https://github.com/sfi9876\x0a'}

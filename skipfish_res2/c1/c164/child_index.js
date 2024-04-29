@@ -1,0 +1,6 @@
+var child = [
+  { 'dupe': false, 'type': 64, 'name': 'entryPage=HEADER_ACCOUNT', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/login?ret=/&entryPage=HEADER_ACCOUNT&sourceContext=Header:HomePage', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'ret=/', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/login?ret=/&entryPage=HEADER_ACCOUNT&sourceContext=Header:HomePage', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'sourceContext=Header:HomePage', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/login?ret=/&entryPage=HEADER_ACCOUNT&sourceContext=Header:HomePage', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'type=mobile', 'dir': 'c3', 'linked': 1, 'url': 'https://www.flipkart.com/login?type=mobile&sourceContext=buy_now', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

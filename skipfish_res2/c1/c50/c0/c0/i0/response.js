@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 404 Not Found\x0aserver: nginx\x0adate: Thu, 18 Apr 2024 11:30:00 GMT\x0acontent-type: text/html\x0acontent-length: 1780\x0avary: Accept-Encoding\x0aetag: \x2265f14d82-6f4\x22\x0aaccept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version\x0a'}

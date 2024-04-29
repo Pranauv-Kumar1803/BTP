@@ -17,7 +17,7 @@ def start_zap_daemon():
         subprocess.run(f'zap.bat -daemon', shell=True)
     # for Linux based systems
     else: 
-        subprocess.run(f'zaproxy -daemon', shell=True)
+        os.system(f'zaproxy -daemon')
 
 def zap_scan(target, api_key):
     zap = ZAPv2(apikey=api_key, proxies={
@@ -52,11 +52,43 @@ def generate_zap_report(api_key):
         fp.write(json_report)
         print("ZAP scan report saved as json file")
 
-def main(dns: Annotated[str, typer.Option(help="This option is used for doing a DNS recon on a given domain name.\n Use this option followed by a domain name to get details of DNS records associated with that domain")] = "", zap: Annotated[str, typer.Option(help="This option is used for doing a ZAP Spider Active Scan on a given target.\n Use this option followed by a domain name to do an active scan on the domain")] = "", nikto: Annotated[str, typer.Option(help="This option is used for doing a Nikto Active Scan on a given target(Web Server).\n Use this option followed by a ip address to do an scan on the ip's web server")] = "" , nuclei: Annotated[str, typer.Option(help="This option is used for doing a Nuclei Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web server")] = "", wapiti: Annotated[str, typer.Option(help="This option is used for doing a Nuclei Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web server")] = ""):
+
+def run_skipfish(url, output_directory):
+    if not os.path.exists(output_directory):
+        print('inside this')
+        os.makedirs(output_directory)
+    
+    try:
+        os.system(f"'yes' | skipfish -o {output_directory} -Y {url}")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+def run_wapiti_scan(target_url):
+    try:
+        fileName = time.time()
+        os.system(f"wapiti -u {target_url} --flush-session -f json --output {fileName}-wapiti_output -m backup,blindsql,brute_login_form,buster,cookieflags,crlf,csp,csrf,exec,file,htaccess,http_headers,methods,nikto,permanentxss,redirect,shellshock,sql,ssrf,wapp,xss,xxe")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+def main(dns: Annotated[str, typer.Option(help="This option is used for doing a DNS recon on a given domain name.\n Use this option followed by a domain name to get details of DNS records associated with that domain")] = "", zap: Annotated[str, typer.Option(help="This option is used for doing a ZAP Spider Active Scan on a given target.\n Use this option followed by a domain name to do an active scan on the domain")] = "", nikto: Annotated[str, typer.Option(help="This option is used for doing a Nikto Active Scan on a given target(Web Server).\n Use this option followed by a ip address to do an scan on the ip's web server")] = "" , nuclei: Annotated[str, typer.Option(help="This option is used for doing a Nuclei Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web server")] = "", wapiti: Annotated[str, typer.Option(help="This option is used for doing a Wapiti Scan on a given target.\n Use this option followed by a proper url to do an scan on the domain's web server")] = "", skipfish: Annotated[str, typer.Option(help="This option is used for doing a Skipfish Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web application")] = ""):
     domain = dns
     z = zap
     ni = nikto
     nuc = nuclei
+    wap = wapiti
+    skip = skipfish
+
+    if wap:
+        run_wapiti_scan(wap)
+
+    if skip:
+        fileName = time.time()
+        dir = f"{fileName}-results-skipfish"
+        run_skipfish(skip, dir)
 
     if dns:
         fileName = time.time()
@@ -77,9 +109,11 @@ def main(dns: Annotated[str, typer.Option(help="This option is used for doing a 
 
     if z:
         print(z)
-        os.system('echo Starting ZAP Daemon and scanning the target...... ')
+        os.system('echo Starting ZAP Daemon...... ')
         start_zap_daemon()
-        # zap_scan(z, zap_api_key)
+        time.sleep(2)
+        print('starting zap scan......')
+        zap_scan(z, zap_api_key)
         # generate_zap_report(zap_api_key)
 
     if ni:
@@ -92,9 +126,8 @@ def main(dns: Annotated[str, typer.Option(help="This option is used for doing a 
     if nuc:
         fileName = time.time()
         os.system('echo Starting Nuclei Scanner......')
-        os.system(f'nuclei -id ./CVE.txt -u {nuc} -json-export {fileName}_nuclei.json')
+        os.system(f'nuclei -u {nuc} -template-id ./owasp_ids.txt -json-export {fileName}_nuclei.json')
         os.system('echo Done with the Nuclei Scanning')
     
 if __name__ == "__main__":
     typer.run(main)
-    

@@ -1,0 +1,7 @@
+var child = [
+  { 'dupe': false, 'type': 8, 'name': 'login', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/account/login', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 2, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'orders', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/account/orders', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'rewards', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/account/rewards', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'link=home_account', 'dir': 'c3', 'linked': 2, 'url': 'https://www.flipkart.com/account/?rd=0&link=home_account', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'rd=0', 'dir': 'c4', 'linked': 2, 'url': 'https://www.flipkart.com/account/?rd=0&link=home_account', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

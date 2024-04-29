@@ -1,0 +1,5 @@
+var child = [
+  { 'dupe': false, 'type': 64, 'name': '[blank]=g0i', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/6bo/g0i/9no/~cs-dnjknvn73l/pr?sid=6bo,g0i,9no&collection-tab-name=Latest%20BenQ%20Monitors', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'collection-tab-name=Latest BenQ Monitors', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/6bo/g0i/9no/~cs-dnjknvn73l/pr?sid=6bo,g0i,9no&collection-tab-name=Latest%20BenQ%20Monitors', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'sid=6bo', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/6bo/g0i/9no/~cs-dnjknvn73l/pr?sid=6bo,g0i,9no&collection-tab-name=Latest%20BenQ%20Monitors', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

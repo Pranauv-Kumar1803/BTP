@@ -1,16 +1,5 @@
-import requests
 import json
 import re
-
-def fetch_template_data(url):
-    """Fetch the template data from a remote JSON file."""
-    response = requests.get(url)
-    print(response)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Failed to fetch data: {response.status_code}")
-        return None
 
 def search_owasp_in_templates(template_path):
     """Search through templates for OWASP-related content and save IDs."""
@@ -30,7 +19,7 @@ def search_owasp_in_templates(template_path):
     ids = []
     patterns = {key: re.compile('|'.join(words), re.IGNORECASE) for key, words in owasp_keywords.items()}
 
-    with open('../nuclei-templates/cves.json', 'r', encoding='utf-8') as fp:
+    with open('./cves.json', 'r', encoding='utf-8') as fp:
         for line in fp:
             try:
                 template = json.loads(line.strip())
@@ -48,7 +37,7 @@ def search_owasp_in_templates(template_path):
     return ids
 
 def save_ids_to_file(ids, filename):
-    with open(filename, 'a') as file:
+    with open(filename, 'w') as file:
         for id in ids:
             file.write(id + ',')
 
@@ -56,6 +45,6 @@ def save_ids_to_file(ids, filename):
 templates = 'cves.json'
 if templates:
     owasp_ids = search_owasp_in_templates(templates)
-    # print(len(owasp_ids))
+    print(len(owasp_ids))
     save_ids_to_file(owasp_ids, 'owasp_ids.txt')
     # print(f"Saved {len(owasp_ids)} IDs to owasp_ids.txt")

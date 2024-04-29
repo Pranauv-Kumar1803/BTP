@@ -1,0 +1,2770 @@
+[
+  {
+    "cve_id": "CVE-2024-3025",
+    "cve_description": "mintplex-labs/anything-llm is vulnerable to path traversal attacks due to insufficient validation of user-supplied input in the logo filename functionality. Attackers can exploit this vulnerability by manipulating the logo filename to reference files outside of the restricted directory. This can lead to unauthorized reading or deletion of files by utilizing the `/api/system/upload-logo` and `/api/system/logo` endpoints. The issue stems from the lack of filtering or validation on the logo filename, allowing attackers to target sensitive files such as the application's database.",
+    "severity": "critical",
+    "cvss_score": 9.9,
+    "cvss_metrics": {
+      "cvss30": {
+        "score": 9.9,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://github.com/mintplex-labs/anything-llm/commit/7de23dbb2da932fbfb39f56d981784d3702cf5ce",
+      "https://huntr.com/bounties/fb09a352-1016-4481-ae88-7460e2b6062b"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security@huntr.dev",
+    "published_at": "2024-04-10T17:15:55.993",
+    "updated_at": "2024-04-10T19:49:51.183",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 17,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-27770",
+    "cve_description": "\nUnitronics Unistream Unilogic – Versions prior to 1.35.227 - \n\nCWE-23: Relative Path Traversal\n\n",
+    "severity": "high",
+    "cvss_score": 8.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://claroty.com/team82/blog/new-critical-vulnerabilities-in-unitronics-unistream-devices-uncovered",
+      "https://www.gov.il/en/departments/dynamiccollectors/cve_advisories_listing?skip=0",
+      "https://github.com/NaInSec/CVE-LIST",
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@cyber.gov.il",
+    "published_at": "2024-03-18T14:15:08.767",
+    "updated_at": "2024-03-18T19:40:00.173",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 40,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-27199",
+    "cve_description": "In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions  was possible",
+    "severity": "high",
+    "cvss_score": 7.3,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.3,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00896,
+      "epss_percentile": 0.8246
+    },
+    "reference": [
+      "https://www.darkreading.com/cyberattacks-data-breaches/jetbrains-teamcity-mass-exploitation-underway-rogue-accounts-thrive",
+      "https://www.jetbrains.com/privacy-security/issues-fixed/",
+      "https://github.com/nomi-sec/PoC-in-GitHub",
+      "https://github.com/yoryio/CVE-2024-27198",
+      "https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-",
+      "https://github.com/ZonghaoLi777/githubTrending",
+      "https://github.com/hcy-picus/emerging_threat_simulator",
+      "https://github.com/johe123qwe/github-trending",
+      "https://github.com/juev/links",
+      "https://github.com/rampantspark/CVE-2024-27198"
+    ],
+    "vendor_advisory": "",
+    "is_template": true,
+    "nuclei_templates": {
+      "template_path": "http/cves/2024/CVE-2024-27199.yaml",
+      "template_url": "https://cloud.projectdiscovery.io/public/CVE-2024-27199",
+      "created_at": "2024-03-05T02:03:19+05:30",
+      "updated_at": "2024-03-06T05:44:11Z"
+    },
+    "is_exploited": false,
+    "assignee": "cve@jetbrains.com",
+    "published_at": "2024-03-04T18:15:09.377",
+    "updated_at": "2024-03-11T15:15:47.663",
+    "hackerone": {
+      "rank": 165,
+      "count": 10
+    },
+    "age_in_days": 54,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-25944",
+    "cve_description": "Dell OpenManage Enterprise, v4.0 and prior, contain(s) a path traversal vulnerability. An unauthenticated remote attacker could potentially exploit this vulnerability, to gain unauthorized access to the files stored on the server filesystem, with the privileges of the running web application.",
+    "severity": "medium",
+    "cvss_score": 5.7,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 5.7,
+        "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://www.dell.com/support/kbdoc/en-us/000223623/dsa-2024-100-security-update-for-dell-openmanage-enterprise-path-traversal-sensitive-data-disclosure-vulnerability"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security_alert@emc.com",
+    "published_at": "2024-03-29T17:15:11.837",
+    "updated_at": "2024-04-01T01:12:59.077",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 29,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-24942",
+    "cve_description": "In JetBrains TeamCity before 2023.11.3 path traversal allowed reading data within JAR archives",
+    "severity": "medium",
+    "cvss_score": 5.3,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 5.3,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00047,
+      "epss_percentile": 0.16151
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*",
+      "vendor": "jetbrains",
+      "product": "teamcity"
+    },
+    "reference": [
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "https://www.jetbrains.com/privacy-security/issues-fixed/",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve@jetbrains.com",
+    "published_at": "2024-02-06T10:15:11.590",
+    "updated_at": "2024-02-09T01:03:13.453",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 81,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-24940",
+    "cve_description": "In JetBrains IntelliJ IDEA before 2023.3.3 path traversal was possible when unpacking archives",
+    "severity": "medium",
+    "cvss_score": 4.3,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 4.3,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00046,
+      "epss_percentile": 0.14836
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:jetbrains:intellij_idea:*:*:*:*:*:*:*:*",
+      "vendor": "jetbrains",
+      "product": "intellij_idea"
+    },
+    "reference": [
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "https://www.jetbrains.com/privacy-security/issues-fixed/",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve@jetbrains.com",
+    "published_at": "2024-02-06T10:15:10.960",
+    "updated_at": "2024-02-07T23:45:31.493",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 81,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:jetbrains:intellij_idea:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-24938",
+    "cve_description": "In JetBrains TeamCity before 2023.11.2 limited directory traversal was possible in the Kotlin DSL documentation",
+    "severity": "medium",
+    "cvss_score": 5.3,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 5.3,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00047,
+      "epss_percentile": 0.16151
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*",
+      "vendor": "jetbrains",
+      "product": "teamcity"
+    },
+    "reference": [
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "https://www.jetbrains.com/privacy-security/issues-fixed/",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve@jetbrains.com",
+    "published_at": "2024-02-06T10:15:10.303",
+    "updated_at": "2024-02-09T01:05:13.527",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 81,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-24578",
+    "cve_description": "RaspberryMatic is an open-source operating system for HomeMatic internet-of-things devices. RaspberryMatic / OCCU prior to version 3.75.6.20240316 contains a unauthenticated remote code execution (RCE) vulnerability, caused by multiple issues within the Java based `HMIPServer.jar` component. RaspberryMatric includes a Java based `HMIPServer`, that can be accessed through URLs starting with `/pages/jpages`. The `FirmwareController` class does however not perform any session id checks, thus this feature can be accessed without a valid session. Due to this issue, attackers can gain remote code execution as root user, allowing a full system compromise. Version 3.75.6.20240316 contains a patch.",
+    "severity": "critical",
+    "cvss_score": 10,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 10,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://github.com/jens-maus/RaspberryMatic/security/advisories/GHSA-q967-q4j8-637h",
+      "https://github.com/NaInSec/CVE-LIST"
+    ],
+    "poc": [
+      {
+        "url": "https://github.com/jens-maus/RaspberryMatic/security/advisories/GHSA-q967-q4j8-637h",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security-advisories@github.com",
+    "published_at": "2024-03-18T22:15:07.683",
+    "updated_at": "2024-03-19T13:26:46.000",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 40,
+    "vuln_status": "unconfirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-22415",
+    "cve_description": "jupyter-lsp is a coding assistance tool for JupyterLab (code navigation + hover suggestions + linters + autocompletion + rename) using Language Server Protocol. Installations of jupyter-lsp running in environments without configured file system access control (on the operating system level), and with jupyter-server instances exposed to non-trusted network are vulnerable to unauthorised access and modification of file system beyond the jupyter root directory. This issue has been patched in version 2.2.2 and all users are advised to upgrade. Users unable to upgrade should uninstall jupyter-lsp.",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00091,
+      "epss_percentile": 0.38441
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:jupyter:language_server_protocol_integration:*:*:*:*:*:jupyter:*:*",
+      "vendor": "jupyter",
+      "product": "language_server_protocol_integration",
+      "framework": "jupyter"
+    },
+    "vendor_advisory": "https://github.com/jupyter-lsp/jupyterlab-lsp/security/advisories/GHSA-4qhp-652w-c22x",
+    "patch_url": [
+      "https://github.com/jupyter-lsp/jupyterlab-lsp/commit/4ad12f204ad0b85580fc32137c647baaff044e95"
+    ],
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security-advisories@github.com",
+    "published_at": "2024-01-18T21:15:09.087",
+    "updated_at": "2024-01-30T15:22:32.770",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 100,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:jupyter:language_server_protocol_integration:*:*:*:*:*:jupyter:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-22226",
+    "cve_description": "\nDell Unity, versions prior to 5.4, contain a path traversal vulnerability in its svc_supportassist utility. An authenticated attacker could potentially exploit this vulnerability, to gain unauthorized write access to the files stored on the server filesystem, with elevated privileges.\n\n",
+    "severity": "medium",
+    "cvss_score": 6.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00046,
+      "epss_percentile": 0.14836
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:dell:unity_operating_environment:*:*:*:*:*:*:*:*",
+      "vendor": "dell",
+      "product": "unity_operating_environment"
+    },
+    "reference": [
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "https://www.dell.com/support/kbdoc/en-us/000222010/dsa-2024-042-dell-unity-dell-unity-vsa-and-dell-unity-xt-security-update-for-multiple-vulnerabilities",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security_alert@emc.com",
+    "published_at": "2024-02-12T19:15:12.130",
+    "updated_at": "2024-02-16T13:55:08.217",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 75,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:dell:unity_operating_environment:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-22096",
+    "cve_description": "In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, an attacker can append path traversal characters to the filename when using a specific command, allowing them to read arbitrary files from the system.\n",
+    "severity": "medium",
+    "cvss_score": 6.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.0005,
+      "epss_percentile": 0.17659
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*",
+      "vendor": "rapidscada",
+      "product": "rapid_scada"
+    },
+    "reference": [
+      "https://rapidscada.org/contact/",
+      "https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "ics-cert@hq.dhs.gov",
+    "published_at": "2024-02-02T00:15:55.713",
+    "updated_at": "2024-02-07T17:33:26.800",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 85,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-2053",
+    "cve_description": "The Artica Proxy administrative web application will deserialize arbitrary PHP objects supplied by unauthenticated users and subsequently enable code execution as the \"www-data\" user. This issue was demonstrated on version 4.50 of the The Artica-Proxy administrative web application attempts to prevent local file inclusion. These protections can be bypassed and arbitrary file requests supplied by unauthenticated users will be returned according to the privileges of the \"www-data\" user.\n",
+    "severity": "N/A",
+    "cvss_metrics": {},
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "http://seclists.org/fulldisclosure/2024/Mar/11",
+      "https://korelogic.com/Resources/Advisories/KL-001-2024-001.txt"
+    ],
+    "poc": [
+      {
+        "url": "http://seclists.org/fulldisclosure/2024/Mar/11",
+        "source": "trickest",
+        "added_at": ""
+      },
+      {
+        "url": "https://korelogic.com/Resources/Advisories/KL-001-2024-001.txt",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve@takeonme.org",
+    "published_at": "2024-03-21T02:52:27.250",
+    "updated_at": "2024-03-21T12:58:51.093",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 37,
+    "vuln_status": "unconfirmed",
+    "is_poc": true,
+    "is_remote": false,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-20352",
+    "cve_description": "A vulnerability in Cisco Emergency Responder could allow an authenticated, remote attacker to conduct a directory traversal attack, which could allow the attacker to perform arbitrary actions on an affected device. This vulnerability is due to insufficient protections for the web UI of an affected system. An attacker could exploit this vulnerability by sending crafted requests to the web UI. A successful exploit could allow the attacker to perform arbitrary actions with the privilege level of the affected user, such as accessing password or log files or uploading and deleting existing files from the system.",
+    "severity": "medium",
+    "cvss_score": 4.9,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 4.9,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cem-csrf-suCmNjFr"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "ykramarz@cisco.com",
+    "published_at": "2024-04-03T17:15:49.510",
+    "updated_at": "2024-04-03T17:24:18.150",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 24,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-20310",
+    "cve_description": "A vulnerability in the web-based interface of Cisco Unified Communications Manager IM \u0026 Presence Service (Unified CM IM\u0026P) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against an authenticated user of the interface.\r\n\r This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading an authenticated user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information.",
+    "severity": "medium",
+    "cvss_score": 6.1,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.1,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-imps-xss-quWkd9yF"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "ykramarz@cisco.com",
+    "published_at": "2024-04-03T17:15:48.513",
+    "updated_at": "2024-04-03T17:24:18.150",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 24,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-1485",
+    "cve_description": "A flaw was found in the decompression function of registry-support. This issue can be triggered if an unauthenticated remote attacker tricks a user into parsing a devfile which uses the `parent` or `plugin` keywords. This could download a malicious archive and cause the cleanup process to overwrite or delete files outside of the archive, which should not be allowed.",
+    "severity": "high",
+    "cvss_score": 8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8,
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00045,
+      "epss_percentile": 0.14165
+    },
+    "reference": [
+      "https://access.redhat.com/security/cve/CVE-2024-1485",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2264106",
+      "https://github.com/advisories/GHSA-84xv-jfrm-h4gm",
+      "https://github.com/devfile/registry-support/commit/0e44b9ca6d03fac4fc3f77d37656d56dc5defe0d",
+      "https://github.com/devfile/registry-support/pull/197",
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "secalert@redhat.com",
+    "published_at": "2024-02-14T00:15:46.783",
+    "updated_at": "2024-02-22T01:15:07.980",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 73,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-0550",
+    "cve_description": "A user who is privileged already `manager` or `admin` can set their profile picture via the frontend API using a relative filepath to then user the PFP GET API to download any valid files.\n\nThe attacker would have to have been granted privileged permissions to the system before executing this attack.",
+    "severity": "critical",
+    "cvss_score": 9.6,
+    "cvss_metrics": {
+      "cvss30": {
+        "score": 9.6,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://github.com/mintplex-labs/anything-llm/commit/e1dcd5ded010b03abd6aa32d1bf0668a48e38e17",
+      "https://huntr.com/bounties/c6afeb5e-f211-4b3d-aa4b-6bad734217a6"
+    ],
+    "poc": [
+      {
+        "url": "https://huntr.com/bounties/c6afeb5e-f211-4b3d-aa4b-6bad734217a6",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security@huntr.dev",
+    "published_at": "2024-02-28T05:15:08.770",
+    "updated_at": "2024-02-28T14:06:45.783",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 59,
+    "vuln_status": "unconfirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2024-0549",
+    "cve_description": "mintplex-labs/anything-llm is vulnerable to a relative path traversal attack, allowing unauthorized attackers with a default role account to delete files and folders within the filesystem, including critical database files such as 'anythingllm.db'. The vulnerability stems from insufficient input validation and normalization in the handling of file and folder deletion requests. Successful exploitation results in the compromise of data integrity and availability.",
+    "severity": "high",
+    "cvss_score": 8.1,
+    "cvss_metrics": {
+      "cvss30": {
+        "score": 8.1,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://github.com/mintplex-labs/anything-llm/commit/026849df0224b6a8754f4103530bc015874def62",
+      "https://huntr.com/bounties/fcb4001e-0290-4b78-a2f0-91ee5d20cc72"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security@huntr.dev",
+    "published_at": "2024-04-16T00:15:07.603",
+    "updated_at": "2024-04-16T13:24:07.103",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 11,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2023-6722",
+    "cve_description": "A path traversal vulnerability has been detected in Repox, which allows an attacker to read arbitrary files on the running server, resulting in a disclosure of sensitive information. An attacker could access files such as application code or data, backend credentials, operating system files...",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00087,
+      "epss_percentile": 0.36227
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:europeana:repox:2.3.7:*:*:*:*:*:*:*",
+      "vendor": "europeana",
+      "product": "repox"
+    },
+    "reference": [
+      "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-repox",
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve-coordination@incibe.es",
+    "published_at": "2023-12-13T10:15:12.150",
+    "updated_at": "2023-12-18T17:33:10.883",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 136,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:europeana:repox:2.3.7:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6307",
+    "cve_description": "A vulnerability classified as critical was found in jeecgboot JimuReport up to 1.6.1. Affected by this vulnerability is an unknown functionality of the file /download/image. The manipulation of the argument imageUrl leads to relative path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-246133 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss2": {
+        "score": 6.5,
+        "vector": "CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P",
+        "severity": "medium"
+      },
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00062,
+      "epss_percentile": 0.25214
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:jeecg:jimureport:*:*:*:*:*:*:*:*",
+      "vendor": "jeecg",
+      "product": "jimureport"
+    },
+    "reference": [
+      "https://github.com/N0b1e6/exp/blob/main/README.md",
+      "https://vuldb.com/?ctiid.246133",
+      "https://vuldb.com/?id.246133"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@vuldb.com",
+    "published_at": "2023-11-27T02:15:42.353",
+    "updated_at": "2024-04-11T01:23:17.067",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 152,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:jeecg:jimureport:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-4914",
+    "cve_description": "Relative Path Traversal in GitHub repository cecilapp/cecil prior to 7.47.1.",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss30": {
+        "score": 5.8,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+        "severity": "medium"
+      },
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00087,
+      "epss_percentile": 0.35907
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:cecil:cecil:*:*:*:*:*:*:*:*",
+      "vendor": "cecil",
+      "product": "cecil"
+    },
+    "poc": [
+      {
+        "url": "https://huntr.dev/bounties/cdd995b2-c983-428b-a73a-827b61b7c06b",
+        "source": "NVD",
+        "added_at": ""
+      },
+      {
+        "url": "https://huntr.dev/bounties/cdd995b2-c983-428b-a73a-827b61b7c06b",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "patch_url": [
+      "https://github.com/cecilapp/cecil/commit/00dc79f10ce723034b7140d79f4ac731d1d902eb"
+    ],
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security@huntr.dev",
+    "published_at": "2023-09-12T15:15:24.717",
+    "updated_at": "2023-09-14T00:43:57.353",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 228,
+    "vuln_status": "confirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:cecil:cecil:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-4897",
+    "cve_description": "Relative Path Traversal in GitHub repository mintplex-labs/anything-llm prior to 0.0.1.",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss30": {
+        "score": 8.7,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N",
+        "severity": "high"
+      },
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00087,
+      "epss_percentile": 0.36477
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:mintplexlabs:anythingllm:*:*:*:*:*:*:*:*",
+      "vendor": "mintplexlabs",
+      "product": "anythingllm"
+    },
+    "poc": [
+      {
+        "url": "https://huntr.dev/bounties/0631af48-84a3-4019-85db-f0f8b12cb0ab",
+        "source": "NVD",
+        "added_at": ""
+      },
+      {
+        "url": "https://huntr.dev/bounties/0631af48-84a3-4019-85db-f0f8b12cb0ab",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "patch_url": [
+      "https://github.com/mintplex-labs/anything-llm/commit/3c88aec034934bcbad30c5ef1cab62cbbdb98e64",
+      "https://huntr.dev/bounties/0631af48-84a3-4019-85db-f0f8b12cb0ab"
+    ],
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security@huntr.dev",
+    "published_at": "2023-09-11T21:15:42.870",
+    "updated_at": "2023-09-13T14:41:12.663",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 229,
+    "vuln_status": "confirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:mintplexlabs:anythingllm:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-47613",
+    "cve_description": "A CWE-23: Relative Path Traversal vulnerability exists in Telit Cinterion BGS5, Telit Cinterion EHS5/6/8, Telit Cinterion PDS5/6/8, Telit Cinterion ELS61/81, Telit Cinterion PLS62 that could allow a local, low privileged attacker to escape from virtual directories and get read/write access to protected files on the targeted system.",
+    "severity": "high",
+    "cvss_score": 7.1,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00044,
+      "epss_percentile": 0.09162
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:o:telit:bgs5_firmware:-:*:*:*:*:*:*:*",
+      "vendor": "telit",
+      "product": "bgs5_firmware"
+    },
+    "reference": [
+      "https://ics-cert.kaspersky.com/advisories/2023/11/08/klcert-22-211-telit-cinterion-thales-gemalto-modules-relative-path-traversal/"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "vulnerability@kaspersky.com",
+    "published_at": "2023-11-09T07:15:07.310",
+    "updated_at": "2023-11-16T16:39:43.860",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 170,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:o:telit:bgs5_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:ehs5_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:ehs6_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:ehs8_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:pds5_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:pds6_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:pds8_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:els61_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:els81_firmware:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:telit:pls62_firmware:-:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-46119",
+    "cve_description": "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Parse Server crashes when uploading a file without extension. This vulnerability has been patched in versions 5.5.6 and 6.3.1.\n\n",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00068,
+      "epss_percentile": 0.28506
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:parseplatform:parse-server:*:*:*:*:*:node.js:*:*",
+      "vendor": "parseplatform",
+      "product": "parse-server",
+      "framework": "node.js"
+    },
+    "reference": [
+      "https://github.com/parse-community/parse-server/releases/tag/5.5.6",
+      "https://github.com/parse-community/parse-server/releases/tag/6.3.1"
+    ],
+    "vendor_advisory": "https://github.com/parse-community/parse-server/security/advisories/GHSA-792q-q67h-w579",
+    "patch_url": [
+      "https://github.com/parse-community/parse-server/commit/686a9f282dc23c31beab3d93e6d21ccd0e1328fe",
+      "https://github.com/parse-community/parse-server/commit/fd86278919556d3682e7e2c856dfccd5beffbfc0"
+    ],
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security-advisories@github.com",
+    "published_at": "2023-10-25T18:17:36.183",
+    "updated_at": "2023-11-01T17:09:01.520",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 185,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": true,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:parseplatform:parse-server:*:*:*:*:*:node.js:*:*"
+    ],
+    "oss": {
+      "all_languages": {
+        "Dockerfile": 1160,
+        "HTML": 25876,
+        "Handlebars": 2113,
+        "JavaScript": 4213839,
+        "Shell": 7180
+      },
+      "description": "Parse Server for Node.js / Express",
+      "forks": 4736,
+      "language": "JavaScript",
+      "stars": 20623,
+      "subscribers": 583,
+      "topics": [
+        "parse-server",
+        "parse-platform",
+        "mongodb",
+        "postgres",
+        "graphql",
+        "baas",
+        "backend",
+        "rest-api",
+        "object-storage",
+        "nodejs",
+        "graphql-api",
+        "mbaas",
+        "relay",
+        "graphql-server",
+        "graphql-relay",
+        "file-storage",
+        "notifications",
+        "hacktoberfest"
+      ],
+      "pushed_at": "2024-04-27T17:37:46Z",
+      "created_at": "2016-01-28T18:29:14Z",
+      "updated_at": "2024-04-27T13:00:46Z",
+      "url": "https://github.com/parse-community/parse-server"
+    }
+  },
+  {
+    "cve_id": "CVE-2023-42791",
+    "cve_description": "A relative path traversal in Fortinet FortiManager version 7.4.0 and 7.2.0 through 7.2.3 and 7.0.0 through 7.0.8 and 6.4.0 through 6.4.12 and 6.2.0 through 6.2.11 allows attacker to execute unauthorized code or commands via crafted HTTP requests.",
+    "severity": "high",
+    "cvss_score": 8.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00043,
+      "epss_percentile": 0.08205
+    },
+    "reference": [
+      "https://fortiguard.com/psirt/FG-IR-23-189",
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2024-02-20T14:15:08.030",
+    "updated_at": "2024-02-20T19:50:53.960",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 67,
+    "vuln_status": "unconfirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false
+  },
+  {
+    "cve_id": "CVE-2023-42783",
+    "cve_description": "A relative path traversal in Fortinet FortiWLM version 8.6.0 through 8.6.5 and 8.5.0 through 8.5.4 and 8.4.2 through 8.4.0 and 8.3.2 through 8.3.0 and 8.2.2 allows attacker to read arbitrary files via crafted http requests.",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00064,
+      "epss_percentile": 0.26959
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiwlm"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-23-143",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-11-14T18:15:53.853",
+    "updated_at": "2023-11-18T03:28:03.087",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 165,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.2.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.3.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.3.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.4.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.4.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiwlm:8.4.2:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-37288",
+    "cve_description": "SmartBPM.NET component has a vulnerability of path traversal within its file download function. An unauthenticated remote attacker can exploit this vulnerability to access arbitrary system files.",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00111,
+      "epss_percentile": 0.43796
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:smartsoft:smartbpm.net:6.70:*:*:*:*:*:*:*",
+      "vendor": "smartsoft",
+      "product": "smartbpm.net"
+    },
+    "reference": [
+      "https://www.twcert.org.tw/tw/cp-132-7223-af8f8-1.html",
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "twcert@cert.org.tw",
+    "published_at": "2023-07-10T02:15:45.607",
+    "updated_at": "2023-07-13T18:58:30.187",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 292,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:smartsoft:smartbpm.net:6.70:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-3701",
+    "cve_description": "Aqua Drive, in its 2.4 version, is vulnerable to a relative path traversal vulnerability. By exploiting this vulnerability, an authenticated non privileged user could access/modify stored resources of other users. It could also be possible to access and modify the source and configuration files of the cloud disk platform, affecting the integrity and availability of the entire platform.",
+    "severity": "high",
+    "cvss_score": 8.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00049,
+      "epss_percentile": 0.17615
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:aquaesolutions:aqua_drive:2.4:*:*:*:*:*:*:*",
+      "vendor": "aquaesolutions",
+      "product": "aqua_drive"
+    },
+    "reference": [
+      "https://www.incibe.es/en/incibe-cert/notices/aviso/relative-path-traversal-aqua-esolutions"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve-coordination@incibe.es",
+    "published_at": "2023-10-04T11:15:10.430",
+    "updated_at": "2023-10-05T17:04:18.250",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 206,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:aquaesolutions:aqua_drive:2.4:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-3512",
+    "cve_description": "Relative path traversal vulnerability in Setelsa Security's ConacWin CB, in its 3.8.2.2 version and earlier, the exploitation of which could allow an attacker to perform an arbitrary download of files from the system via the \"Download file\" parameter.",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      },
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.0009,
+      "epss_percentile": 0.37681
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:setelsa-security:conacwin:*:*:*:*:*:*:*:*",
+      "vendor": "setelsa-security",
+      "product": "conacwin"
+    },
+    "reference": [
+      "https://github.com/advisories/GHSA-v6jm-v768-76h2",
+      "https://https://www.incibe.es/en/incibe-cert/notices/aviso/relative-path-traversal-setelsa-security-conacwin"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cve-coordination@incibe.es",
+    "published_at": "2023-10-04T11:15:10.363",
+    "updated_at": "2023-10-05T17:04:39.053",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 206,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:setelsa-security:conacwin:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-34394",
+    "cve_description": "\n\n\n\n\n\n\nIn Keysight Geolocation Server v2.4.2 and prior, an attacker could upload a specially crafted malicious file or delete any file or directory with SYSTEM privileges due to an improper path validation, which could result in local privilege escalation or a denial-of-service condition.\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "severity": "high",
+    "cvss_score": 7.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.8,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-434",
+        "cwe_name": "Unrestricted Upload of File with Dangerous Type"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.0015,
+      "epss_percentile": 0.50616
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:keysight:geolocation_server:*:*:*:*:*:*:*:*",
+      "vendor": "keysight",
+      "product": "geolocation_server"
+    },
+    "reference": [
+      "https://www.cisa.gov/news-events/ics-advisories/icsa-23-199-02"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "ics-cert@hq.dhs.gov",
+    "published_at": "2023-07-19T22:15:10.983",
+    "updated_at": "2023-07-27T18:21:19.443",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 283,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:keysight:geolocation_server:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-31036",
+    "cve_description": "NVIDIA Triton Inference Server for Linux and Windows contains a vulnerability where, when it is launched with the non-default command line option --model-control explicit, an attacker may use the model load API to cause a relative path traversal. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+    "severity": "high",
+    "cvss_score": 8.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00057,
+      "epss_percentile": 0.22414
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*",
+      "vendor": "nvidia",
+      "product": "triton_inference_server"
+    },
+    "reference": [
+      "https://github.com/fkie-cad/nvd-json-data-feeds"
+    ],
+    "vendor_advisory": "https://nvidia.custhelp.com/app/answers/detail/a_id/5509",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@nvidia.com",
+    "published_at": "2024-01-12T17:15:09.183",
+    "updated_at": "2024-01-18T20:45:53.087",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 106,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-29189",
+    "cve_description": "SAP CRM (WebClient UI) - versions S4FND 102, 103, 104, 105, 106, 107, WEBCUIF, 700, 701, 731, 730, 746, 747, 748, 800, 801, allows an authenticated attacker to modify HTTP verbs used in requests to the web server. This application is exposed over the network and successful exploitation can lead to exposure of form fields\n\n",
+    "severity": "medium",
+    "cvss_score": 5.4,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 5.4,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "NVD-CWE-noinfo"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00067,
+      "epss_percentile": 0.28421
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:sap:customer_relationship_management_s4fnd:102:*:*:*:*:*:*:*",
+      "vendor": "sap",
+      "product": "customer_relationship_management_s4fnd"
+    },
+    "reference": [
+      "https://launchpad.support.sap.com/#/notes/3269352"
+    ],
+    "poc": [
+      {
+        "url": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@sap.com",
+    "published_at": "2023-04-11T04:16:09.283",
+    "updated_at": "2023-04-18T19:12:51.917",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 382,
+    "vuln_status": "confirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:sap:customer_relationship_management_s4fnd:102:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_s4fnd:103:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_s4fnd:104:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_s4fnd:105:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:700:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:701:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:730:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:731:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:746:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:747:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:748:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:800:*:*:*:*:*:*:*",
+      "cpe:2.3:a:sap:customer_relationship_management_webclient_ui:801:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-2913",
+    "cve_description": "\nAn executable used in Rockwell Automation ThinManager ThinServer can be configured to enable an API feature in the HTTPS Server Settings. This feature is disabled by default. When the API is enabled and handling requests, a path traversal vulnerability exists that allows a remote actor to leverage the privileges of the server’s file system and read arbitrary files stored in it. A malicious user could exploit this vulnerability by executing a path that contains manipulating variables.\n\n\n",
+    "severity": "medium",
+    "cvss_score": 6.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.0005,
+      "epss_percentile": 0.17659
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:rockwellautomation:thinmanager:*:*:*:*:*:*:*:*",
+      "vendor": "rockwellautomation",
+      "product": "thinmanager"
+    },
+    "vendor_advisory": "https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1140160",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "PSIRT@rockwellautomation.com",
+    "published_at": "2023-07-18T20:15:09.667",
+    "updated_at": "2023-07-27T19:51:33.973",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 284,
+    "vuln_status": "confirmed",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:rockwellautomation:thinmanager:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-27993",
+    "cve_description": "A relative path traversal [CWE-23] in Fortinet FortiADC version 7.2.0 and before 7.1.1 allows a privileged attacker to delete arbitrary directories from the underlying file system via crafted CLI commands.",
+    "severity": "high",
+    "cvss_score": 7.1,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00044,
+      "epss_percentile": 0.09651
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiadc"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-23-069",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-05-03T22:15:18.787",
+    "updated_at": "2023-11-07T04:10:21.840",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 360,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiadc:7.2.0:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-23784",
+    "cve_description": "A relative path traversal in Fortinet FortiWeb version 7.0.0 through 7.0.2, FortiWeb version 6.3.6 through 6.3.20, FortiWeb 6.4 all versions allows attacker to information disclosure via specially crafted web requests.",
+    "severity": "medium",
+    "cvss_score": 6.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      },
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.0007,
+      "epss_percentile": 0.2946
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiweb"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-22-251",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-02-16T19:15:14.517",
+    "updated_at": "2023-11-07T04:07:58.743",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 436,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-23778",
+    "cve_description": "A relative path traversal vulnerability [CWE-23] in FortiWeb version 7.0.1 and below, 6.4 all versions, 6.3 all versions, 6.2 all versions may allow an authenticated user to obtain unauthorized access to files and data via specifically crafted web requests.",
+    "severity": "medium",
+    "cvss_score": 6.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00067,
+      "epss_percentile": 0.28335
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiweb"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-22-142",
+    "patch_url": [
+      "https://fortiguard.com/psirt/FG-IR-22-142"
+    ],
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-02-16T19:15:14.120",
+    "updated_at": "2023-11-07T04:07:57.183",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 436,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiweb:6.4.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiweb:6.4.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiweb:6.4.2:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiweb:7.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiweb:7.0.1:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-2356",
+    "cve_description": "Relative Path Traversal in GitHub repository mlflow/mlflow prior to 2.3.1.",
+    "severity": "high",
+    "cvss_score": 7.5,
+    "cvss_metrics": {
+      "cvss30": {
+        "score": 10,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+        "severity": "critical"
+      },
+      "cvss31": {
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.01131,
+      "epss_percentile": 0.84505
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:lfprojects:mlflow:*:*:*:*:*:*:*:*",
+      "vendor": "lfprojects",
+      "product": "mlflow"
+    },
+    "reference": [
+      "https://github.com/Ostorlab/KEV",
+      "https://github.com/Ostorlab/known_exploited_vulnerbilities_detectors"
+    ],
+    "poc": [
+      {
+        "url": "https://huntr.dev/bounties/7b5d130d-38eb-4133-8c7d-0dfc9a9d9896",
+        "source": "NVD",
+        "added_at": ""
+      },
+      {
+        "url": "https://huntr.dev/bounties/7b5d130d-38eb-4133-8c7d-0dfc9a9d9896",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "patch_url": [
+      "https://github.com/mlflow/mlflow/commit/f73147496e05c09a8b83d95fb4f1bf86696c6342",
+      "https://huntr.dev/bounties/7b5d130d-38eb-4133-8c7d-0dfc9a9d9896"
+    ],
+    "is_template": true,
+    "nuclei_templates": {
+      "template_path": "http/cves/2023/CVE-2023-2356.yaml",
+      "template_url": "https://cloud.projectdiscovery.io/public/CVE-2023-2356",
+      "created_at": "2023-05-04T20:59:25+08:00",
+      "updated_at": "2024-03-25T11:57:16Z"
+    },
+    "is_exploited": false,
+    "assignee": "security@huntr.dev",
+    "published_at": "2023-04-28T00:15:08.890",
+    "updated_at": "2023-05-05T17:17:38.893",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 365,
+    "vuln_status": "confirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:lfprojects:mlflow:*:*:*:*:*:*:*:*"
+    ],
+    "shodan": {
+      "count": 1002,
+      "query": [
+        "http.title:\"mlflow\""
+      ]
+    }
+  },
+  {
+    "cve_id": "CVE-2023-20066",
+    "cve_description": "A vulnerability in the web UI of Cisco IOS XE Software could allow an authenticated, remote attacker to perform a directory traversal and access resources that are outside the filesystem mountpoint of the web UI. This vulnerability is due to an insufficient security configuration. An attacker could exploit this vulnerability by sending a crafted request to the web UI. A successful exploit could allow the attacker to gain read access to files that are outside the filesystem mountpoint of the web UI. Note: These files are located on a restricted filesystem that is maintained for the web UI. There is no ability to write to any files on this filesystem.",
+    "severity": "medium",
+    "cvss_score": 6.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 6.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00094,
+      "epss_percentile": 0.39168
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:o:cisco:ios_xe:16.12.3:*:*:*:*:*:*:*",
+      "vendor": "cisco",
+      "product": "ios_xe"
+    },
+    "vendor_advisory": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webui-pthtrv-es7GSb9V",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "ykramarz@cisco.com",
+    "published_at": "2023-03-23T17:15:14.547",
+    "updated_at": "2023-11-07T04:05:55.540",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 401,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:o:cisco:ios_xe:16.12.3:*:*:*:*:*:*:*",
+      "cpe:2.3:o:cisco:ios_xe:17.3.2:*:*:*:*:*:*:*",
+      "cpe:2.3:o:cisco:ios_xe:17.6.2:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-20040",
+    "cve_description": "A vulnerability in the NETCONF service of Cisco Network Services Orchestrator (NSO) could allow an authenticated, remote attacker to cause a denial of service (DoS) on an affected system that is running as the root user. To exploit this vulnerability, the attacker must be a member of the admin group.\r\n\r This vulnerability exists because user-supplied input is not properly validated when NETCONF is used to upload packages to an affected device. An attacker could exploit this vulnerability by uploading a specially crafted package file. A successful exploit could allow the attacker to write crafted files to arbitrary locations on the filesystem or delete arbitrary files from the filesystem of an affected device, resulting in a DoS condition. \r\n\r Note: By default, during install, Cisco NSO will be set up to run as the root user unless the --run-as-user option is used.",
+    "severity": "medium",
+    "cvss_score": 5.5,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 5.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-434",
+        "cwe_name": "Unrestricted Upload of File with Dangerous Type"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00093,
+      "epss_percentile": 0.38945
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:cisco:network_services_orchestrator:*:*:*:*:*:*:*:*",
+      "vendor": "cisco",
+      "product": "network_services_orchestrator"
+    },
+    "vendor_advisory": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-path-trvsl-zjBeMkZg",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "ykramarz@cisco.com",
+    "published_at": "2023-01-20T07:15:15.793",
+    "updated_at": "2024-01-25T17:15:26.757",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 463,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:cisco:network_services_orchestrator:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:cisco:network_services_orchestrator:5.8:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1112",
+    "cve_description": "A vulnerability was found in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 on WordPress. It has been classified as critical. Affected is an unknown function of the file admin-ajax.php. The manipulation of the argument upload_name leads to relative path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222072.",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss2": {
+        "score": 5.8,
+        "vector": "CVSS:2.0/AV:N/AC:L/Au:M/C:P/I:P/A:P",
+        "severity": "medium"
+      },
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00231,
+      "epss_percentile": 0.60847
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:codedropz:drag_and_drop_multiple_file_upload_-_contact_form_7:*:*:*:*:pro:wordpress:*:*",
+      "vendor": "codedropz",
+      "product": "drag_and_drop_multiple_file_upload_-_contact_form_7",
+      "framework": "wordpress"
+    },
+    "reference": [
+      "https://vuldb.com/?ctiid.222072",
+      "https://vuldb.com/?id.222072",
+      "https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal",
+      "https://github.com/codeb0ss/CVE-2023-1112-EXP",
+      "https://github.com/nomi-sec/PoC-in-GitHub"
+    ],
+    "poc": [
+      {
+        "url": "https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal",
+        "source": "NVD",
+        "added_at": ""
+      },
+      {
+        "url": "https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal",
+        "source": "gh-nomi-sec",
+        "added_at": "2023-02-04T03:03:05Z"
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@vuldb.com",
+    "published_at": "2023-03-01T10:15:09.700",
+    "updated_at": "2024-04-11T01:17:58.357",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 423,
+    "vuln_status": "modified",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:codedropz:drag_and_drop_multiple_file_upload_-_contact_form_7:*:*:*:*:pro:wordpress:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1045",
+    "cve_description": "A vulnerability was found in MuYuCMS 2.2. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /admin.php/accessory/filesdel.html. The manipulation of the argument filedelur leads to relative path traversal. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-221804.",
+    "severity": "high",
+    "cvss_score": 8.1,
+    "cvss_metrics": {
+      "cvss2": {
+        "score": 4.7,
+        "vector": "CVSS:2.0/AV:N/AC:L/Au:M/C:N/I:P/A:P",
+        "severity": "medium"
+      },
+      "cvss31": {
+        "score": 8.1,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00065,
+      "epss_percentile": 0.27446
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:muyucms:muyucms:2.2:*:*:*:*:*:*:*",
+      "vendor": "muyucms",
+      "product": "muyucms"
+    },
+    "reference": [
+      "https://vuldb.com/?ctiid.221804",
+      "https://vuldb.com/?id.221804"
+    ],
+    "poc": [
+      {
+        "url": "https://github.com/MuYuCMS/MuYuCMS/issues/6",
+        "source": "NVD",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@vuldb.com",
+    "published_at": "2023-02-26T13:15:10.697",
+    "updated_at": "2024-04-11T01:17:56.600",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 426,
+    "vuln_status": "modified",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:muyucms:muyucms:2.2:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1044",
+    "cve_description": "A vulnerability was found in MuYuCMS 2.2. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /editor/index.php. The manipulation of the argument file_path leads to relative path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-221803.",
+    "severity": "high",
+    "cvss_score": 8.8,
+    "cvss_metrics": {
+      "cvss2": {
+        "score": 4,
+        "vector": "CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:N/A:P",
+        "severity": "medium"
+      },
+      "cvss31": {
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00088,
+      "epss_percentile": 0.36901
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:muyucms:muyucms:2.2:*:*:*:*:*:*:*",
+      "vendor": "muyucms",
+      "product": "muyucms"
+    },
+    "reference": [
+      "https://vuldb.com/?ctiid.221803",
+      "https://vuldb.com/?id.221803"
+    ],
+    "poc": [
+      {
+        "url": "https://github.com/MuYuCMS/MuYuCMS/issues/5",
+        "source": "NVD",
+        "added_at": ""
+      },
+      {
+        "url": "https://vuldb.com/?id.221803",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@vuldb.com",
+    "published_at": "2023-02-26T13:15:10.610",
+    "updated_at": "2024-04-11T01:17:56.500",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 426,
+    "vuln_status": "modified",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:muyucms:muyucms:2.2:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1043",
+    "cve_description": "A vulnerability was found in MuYuCMS 2.2. It has been classified as problematic. Affected is an unknown function of the file /editor/index.php. The manipulation of the argument dir_path leads to relative path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-221802 is the identifier assigned to this vulnerability.",
+    "severity": "medium",
+    "cvss_score": 4.3,
+    "cvss_metrics": {
+      "cvss2": {
+        "score": 4,
+        "vector": "CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:N/A:P",
+        "severity": "medium"
+      },
+      "cvss31": {
+        "score": 4.3,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00061,
+      "epss_percentile": 0.25022
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:muyucms:muyucms:2.2:*:*:*:*:*:*:*",
+      "vendor": "muyucms",
+      "product": "muyucms"
+    },
+    "reference": [
+      "https://vuldb.com/?ctiid.221802",
+      "https://vuldb.com/?id.221802"
+    ],
+    "poc": [
+      {
+        "url": "https://github.com/MuYuCMS/MuYuCMS/issues/4",
+        "source": "NVD",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "cna@vuldb.com",
+    "published_at": "2023-02-26T13:15:10.523",
+    "updated_at": "2024-04-11T01:17:56.407",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 426,
+    "vuln_status": "modified",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:muyucms:muyucms:2.2:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0745",
+    "cve_description": "\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tThe High Availability functionality of Yugabyte Anywhere can be abused to write arbitrary\nfiles through the backup upload endpoint by using path traversal characters.\n\n\n\n\t\t\t\t\n\n\n\t\t\t\n\n\n\t\t\n\n\n\t\n This vulnerability is associated with program files PlatformReplicationManager.Java.\n\nThis issue affects YugabyteDB Anywhere: from 2.0.0.0 through 2.13.0.0\n\n",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00156,
+      "epss_percentile": 0.51327
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:yugabyte:yugabytedb_managed:*:*:*:*:*:*:*:*",
+      "vendor": "yugabyte",
+      "product": "yugabytedb_managed"
+    },
+    "reference": [
+      "https://www.yugabyte.com/"
+    ],
+    "vendor_advisory": "",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "security@yugabyte.com",
+    "published_at": "2023-02-09T17:15:16.553",
+    "updated_at": "2023-11-10T23:15:07.647",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 443,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:yugabyte:yugabytedb_managed:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0511",
+    "cve_description": "Relative Path Traversal vulnerability in ForgeRock Access Management Java Policy Agent allows Authentication Bypass. This issue affects Access Management Java Policy Agent: all versions up to 5.10.1\n\n",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00121,
+      "epss_percentile": 0.4577
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:forgerock:java_policy_agents:*:*:*:*:*:*:*:*",
+      "vendor": "forgerock",
+      "product": "java_policy_agents"
+    },
+    "reference": [
+      "https://backstage.forgerock.com/downloads/browse/am/featured/java-agents"
+    ],
+    "vendor_advisory": "https://backstage.forgerock.com/knowledge/kb/article/a21576868",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@forgerock.com",
+    "published_at": "2023-02-28T17:15:10.387",
+    "updated_at": "2023-11-07T04:00:36.433",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 424,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:forgerock:java_policy_agents:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0339",
+    "cve_description": "Relative Path Traversal vulnerability in ForgeRock Access Management Web Policy Agent allows Authentication Bypass. This issue affects Access Management Web Policy Agent: all versions up to 5.10.1\n\n",
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 9.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "critical"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00121,
+      "epss_percentile": 0.4577
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:forgerock:web_policy_agents:*:*:*:*:*:*:*:*",
+      "vendor": "forgerock",
+      "product": "web_policy_agents"
+    },
+    "reference": [
+      "https://backstage.forgerock.com/downloads/browse/am/featured/web-agents"
+    ],
+    "vendor_advisory": "https://backstage.forgerock.com/knowledge/kb/article/a21576868",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@forgerock.com",
+    "published_at": "2023-02-28T17:15:10.300",
+    "updated_at": "2023-11-07T04:00:13.820",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 424,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:forgerock:web_policy_agents:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42892",
+    "cve_description": "A vulnerability has been identified in syngo Dynamics (All versions \u003c VA40G HF01). syngo Dynamics application server hosts a web service using an operation with improper write access control that could allow directory listing in any folder accessible to the account assigned to the website’s application pool.",
+    "severity": "medium",
+    "cvss_score": 5.3,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 5.3,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "severity": "medium"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00076,
+      "epss_percentile": 0.31593
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:siemens:syngo_dynamics_cardiovascular_imaging_and_information_system:*:*:*:*:*:*:*:*",
+      "vendor": "siemens",
+      "product": "syngo_dynamics_cardiovascular_imaging_and_information_system"
+    },
+    "poc": [
+      {
+        "url": "https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/shsa-741697",
+        "source": "trickest",
+        "added_at": ""
+      }
+    ],
+    "vendor_advisory": "https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/shsa-741697",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "productcert@siemens.com",
+    "published_at": "2022-11-17T17:15:12.880",
+    "updated_at": "2022-11-21T19:58:55.763",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 527,
+    "vuln_status": "confirmed",
+    "is_poc": true,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:siemens:syngo_dynamics_cardiovascular_imaging_and_information_system:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42476",
+    "cve_description": "A relative path traversal vulnerability [CWE-23] in Fortinet FortiOS version 7.2.0 through 7.2.2, 7.0.0 through 7.0.8 and before 6.4.11, FortiProxy version 7.2.0 through 7.2.2 and 7.0.0 through 7.0.8 allows privileged VDOM administrators to escalate their privileges to super admin of the box via crafted CLI requests.",
+    "severity": "high",
+    "cvss_score": 8.2,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8.2,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00044,
+      "epss_percentile": 0.09651
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiproxy"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-22-401",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-03-07T17:15:12.303",
+    "updated_at": "2023-11-07T03:53:22.927",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 417,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:7.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:7.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42474",
+    "cve_description": "A relative path traversal vulnerability [CWE-23] in Fortinet FortiOS version 7.2.0 through 7.2.3, version 7.0.0 through 7.0.9 and before 6.4.12, FortiProxy version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.7, FortiSwitchManager version 7.2.0 through 7.2.1 and before 7.0.1 allows an privileged attacker to delete arbitrary directories from the filesystem through crafted HTTP requests.",
+    "severity": "low",
+    "cvss_score": 2.7,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 2.7,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+        "severity": "low"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00063,
+      "epss_percentile": 0.26109
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiproxy"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-22-393",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-06-13T09:15:15.597",
+    "updated_at": "2023-11-07T03:53:22.440",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 319,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:7.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:7.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiswitchmanager:7.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiswitchmanager:7.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiswitchmanager:7.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiswitchmanager:7.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-42470",
+    "cve_description": "A relative path traversal vulnerability in Fortinet FortiClient (Windows) 7.0.0 - 7.0.7, 6.4.0 - 6.4.9, 6.2.0 - 6.2.9 and 6.0.0 - 6.0.10 allows an attacker to execute unauthorized code or commands via sending a crafted request to a specific named pipe.",
+    "severity": "high",
+    "cvss_score": 7.8,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 7.8,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00044,
+      "epss_percentile": 0.09651
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+      "vendor": "fortinet",
+      "product": "forticlient",
+      "framework": "windows"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-22-320",
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-04-11T17:15:07.540",
+    "updated_at": "2023-11-07T03:53:21.667",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 382,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": false,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-41335",
+    "cve_description": "A relative path traversal vulnerability [CWE-23] in Fortinet FortiOS version 7.2.0 through 7.2.2, 7.0.0 through 7.0.8 and before 6.4.10, FortiProxy version 7.2.0 through 7.2.1, 7.0.0 through 7.0.7 and before 2.0.10, FortiSwitchManager 7.2.0 and before 7.0.0  allows an authenticated attacker to read and write files on the underlying Linux system via crafted HTTP requests.",
+    "severity": "high",
+    "cvss_score": 8.1,
+    "cvss_metrics": {
+      "cvss31": {
+        "score": 8.1,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+        "severity": "high"
+      }
+    },
+    "weaknesses": [
+      {
+        "cwe_id": "CWE-22",
+        "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+      },
+      {
+        "cwe_id": "CWE-23",
+        "cwe_name": "Relative Path Traversal"
+      }
+    ],
+    "epss": {
+      "epss_score": 0.00131,
+      "epss_percentile": 0.47501
+    },
+    "cpe": {
+      "cpe": "cpe:2.3:a:fortinet:fortiswitchmanager:7.0.0:*:*:*:*:*:*:*",
+      "vendor": "fortinet",
+      "product": "fortiswitchmanager"
+    },
+    "vendor_advisory": "https://fortiguard.com/psirt/FG-IR-22-391",
+    "patch_url": [
+      "https://fortiguard.com/psirt/FG-IR-22-391"
+    ],
+    "is_template": false,
+    "is_exploited": false,
+    "assignee": "psirt@fortinet.com",
+    "published_at": "2023-02-16T19:15:13.513",
+    "updated_at": "2023-11-07T03:52:48.110",
+    "hackerone": {
+      "rank": 6627,
+      "count": 0
+    },
+    "age_in_days": 436,
+    "vuln_status": "modified",
+    "is_poc": false,
+    "is_remote": true,
+    "is_oss": false,
+    "vulnerable_cpe": [
+      "cpe:2.3:a:fortinet:fortiswitchmanager:7.0.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiswitchmanager:7.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:7.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:fortinet:fortiproxy:7.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fortinet:fortios:7.2.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fortinet:fortios:7.2.1:*:*:*:*:*:*:*",
+      "cpe:2.3:o:fortinet:fortios:7.2.2:*:*:*:*:*:*:*"
+    ]
+  }
+]

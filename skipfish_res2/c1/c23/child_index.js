@@ -1,0 +1,7 @@
+var child = [
+  { 'dupe': false, 'type': 4, 'name': 'happilo~brand', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/dry-fruit-nut-seed/happilo~brand/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'manna~brand', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/dry-fruit-nut-seed/manna~brand/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'naturoz~brand', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/dry-fruit-nut-seed/naturoz~brand/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'open-secret~brand', 'dir': 'c3', 'linked': 2, 'url': 'https://www.flipkart.com/dry-fruit-nut-seed/open-secret~brand/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'prov~brand', 'dir': 'c4', 'linked': 2, 'url': 'https://www.flipkart.com/dry-fruit-nut-seed/prov~brand/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

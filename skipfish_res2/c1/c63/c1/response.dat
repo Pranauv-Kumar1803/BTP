@@ -1,0 +1,122 @@
+HTTP/1.1 200 OK
+server: nginx
+date: Thu, 18 Apr 2024 11:33:37 GMT
+content-type: text/html; charset=utf-8
+transfer-encoding: chunked
+Set-Cookie: T=--%3E%22%3E'%3E'%22%3Csfi000023v907067%3E; Max-Age=31536000; Domain=flipkart.com; Path=/; Expires=Fri, 18 Apr 2025 11:33:37 GMT; Secure; SameSite=None
+Set-Cookie: SN=2.VI5CB75C6A56FC40A8BBCA689955656544.SIF70073B1A85D4596A939B7BA44C7FD36.VS070706A6668542ADA12024FF32F69B8B.1713440017; Max-Age=31536000; Domain=flipkart.com; Path=/; Expires=Fri, 18 Apr 2025 11:33:37 GMT; HttpOnly
+content-security-policy: default-src 'self' https://*.flipkart.com https://*.flixcart.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.flixcart.com https://js-agent.newrelic.com https://bam.nr-data.net https://dpm.demdex.net https://flipkart.d1.sc.omtrdc.net https://www.youtube.com https://s.ytimg.com http://dpm.demdex.net https://smartplugin.youbora.com https://a-fds.youborafds01.com https://client.px-cloud.net https://captcha.px-cdn.net https://www.googletagmanager.com blob: 'nonce-177258351'; style-src 'self' 'unsafe-inline' https://*.flixcart.com; img-src 'self' * data: blob:; media-src 'self' https://*.flixcart.com data: blob: *; font-src 'self' https://*.flixcart.com data:; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://www.youtube.com https://cdemux.appspot.com blob: fknative://* https://*.flixcart.com https://*.surepass.io; worker-src 'self' https://*.flipkart.com blob:; connect-src 'self' *; base-uri 'self'
+x-request-id: clv55y30b1iea2b3ofgkvxtnr-BR
+cache-control: private, no-cache, no-store, must-revalidate, max-age=0
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+pragma: no-cache
+last-modified: Sun, 28 Apr 2024 07:46:25 GMT
+content-encoding: gzip
+accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta name="theme-color" content="#2874f0" id="themeColor"/>
+  	<meta name="viewport" content="width=device-width, minimum-scale=1.0, user-scalable=no"/>
+    <link rel="icon" href="https://rukminim1.flixcart.com/www/25/25/promos/01/06/2017/3d74893c-9476-404c-a32f-7ba8359de6b5.png?q=100" type="image/x-icon">
+    <script>
+      var logError = function(){
+        var hostname = typeof window !== "undefined" && typeof window.location !== "undefined" && window.location.host || '';
+        if(typeof window !== "undefined"){
+            var url = window.location && window.location.search;
+            var error =  'invalid route: ' + hostname + (url && decodeURIComponent(url).replace("?originalUrl=",""))  || '';
+            window.Sentry &&
+            window.Sentry.captureException &&
+            window.Sentry.captureException(error);
+
+          }
+      }
+      logError();
+    </script>
+  <style>
+    html, body{
+      height:100%;
+      margin:0px;
+      box-sizing:border-box;
+      -webkit-user-select:none;
+      -webkit-tap-highlight-color:transparent;
+    }
+    .error-page {
+      background-color: #efefef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+    }
+    .content {
+      text-align: center;
+      padding-bottom: 80px;
+    }
+    .image {
+      vertical-align: middle;
+      padding-bottom: 30px;
+      padding-left:15px;
+    }
+    .header{
+      color: #eaeaea;
+      width: 100%;
+      height: 52px;
+      background-color: #2874f0;
+    }
+    .back-button {
+      padding: 13px 0px 0px 15px;
+      margin: auto;
+      display: inline-block;
+      width: 42px;
+    }
+    .logo {
+      margin: auto;
+      padding: 13px 0px 0px 0px;
+      display: inline-block;
+      width: 42px;
+    }
+    .title {
+      font-size: 17px;
+      font-weight: 500;
+      color: #717171;
+      padding-bottom: 8px;
+    }
+    .subtitle {
+      color: #909090;
+      font-size: 13px;
+      width: 70%;
+      display: inline-block;
+    }
+    .action {
+      text-transform: uppercase;
+      margin-top: 20px;
+      padding: 15px;
+      color: #2874f0;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    </style>
+</head>
+  <body>
+    <div class="header" href='/'>
+        <a href='/' class="back-button">
+          <svg width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg"><path d="M17.556 7.847H1M7.45 1L1 7.877l6.45 6.817" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+        </a>
+        <a href='/' class="logo">
+          <img class="logo-img" src="https://rukminim1.flixcart.com/www/192/192/promos/01/06/2017/3d74893c-9476-404c-a32f-7ba8359de6b5.png?q=100"  width="25px" height="25px"/>
+        </a>
+      </div>
+    <div class="page-layout error-page">
+  <div class="content">
+    <div class="image" width="100">
+      <svg width="77" height="36" viewBox="0 0 77 36" xmlns="http://www.w3.org/2000/svg"><g stroke="#979797" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M61.647 5.91c-.85-1.313-2.088-2.47-3.48-3.32-.93-.54-1.857-1.002-2.94-1.234-4.022-1.003-8.045.154-10.83 2.932L32.642 15.863c-4.408 4.398-4.408 11.497 0 15.82C34.73 33.763 37.59 35 40.61 35c3.017 0 5.8-1.157 7.967-3.318l7.04-7.022M27 12l-16.6 1.536c-5.928.7-10.102 6.042-9.3 11.905.357 2.807 1.8 5.43 4.087 7.218s5.078 2.565 7.99 2.22L26 34"/><path d="M41.675 13.01c.685.372 1.324.815 1.907 1.318 2.22 1.916 3.62 4.71 3.632 7.84a10.796 10.796 0 0 1-3.11 7.715c-.55.56-1.15 1.052-1.788 1.475M63.91 15.72l11.546 2.667m-10.273-6.56l8.78-1.348m-10.687 9.714l7.21 5.188"/></g></svg>
+    </div>
+    <div class="title">Oops! Something broke..."</div>
+    <div class="subtitle">"We are unable to open this right now"</div>
+    <br/>
+    <a class = "action" href='/'>Go to Homepage</a>
+  </div>
+</div>
+  </body>
+</html>
