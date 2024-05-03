@@ -8,7 +8,7 @@ def run_wapiti_scan(target_url):
         # -u : specify the URL
         # --flush-session : start a new session (ignore previous results)
         # --output : specify the output directory
-        command = ["wapiti", "-u", target_url, "--flush-session", "--output", "wapiti_output", "--level", "2"]
+        command = ["wapiti", "-u", target_url, "--flush-session", "--output", "../wapiti_output", "--level", "2"]
 
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 

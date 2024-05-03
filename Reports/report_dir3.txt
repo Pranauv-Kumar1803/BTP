@@ -1,0 +1,1203 @@
+# Dirsearch started Tue Apr 30 11:56:33 2024 as: dirsearch.py -u https://www.goibibo.com/ --format plain -o ./report_dir3.txt
+
+403   397B   https://www.goibibo.com/%2e%2e;/test
+301     0B   https://www.goibibo.com/js    -> REDIRECTS TO: https://www.goibibo.com/js/
+403   389B   https://www.goibibo.com/..;/
+403   457B   https://www.goibibo.com/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+403   391B   https://www.goibibo.com/.htaccess.bak1
+403   391B   https://www.goibibo.com/.htaccess.save
+403   393B   https://www.goibibo.com/.htaccess.sample
+403   391B   https://www.goibibo.com/.htaccess.orig
+200   727B   https://www.goibibo.com/.well-known/assetlinks.json
+403   545B   https://www.goibibo.com/\..\..\..\..\..\..\..\..\..\etc\passwd
+301     0B   https://www.goibibo.com/a    -> REDIRECTS TO: https://www.goibibo.com/
+301     0B   https://www.goibibo.com/A    -> REDIRECTS TO: https://www.goibibo.com/
+301     0B   https://www.goibibo.com/aboutus    -> REDIRECTS TO: https://www.goibibo.com/aboutus/
+403   387B   https://www.goibibo.com/accounts/login
+301     0B   https://www.goibibo.com/ad    -> REDIRECTS TO: https://www.goibibo.com/ad/
+404    96KB  https://www.goibibo.com/admin
+404    96KB  https://www.goibibo.com/admin/.config
+404    96KB  https://www.goibibo.com/admin/_logs/access-log
+404    96KB  https://www.goibibo.com/admin/_logs/error.log
+404    96KB  https://www.goibibo.com/admin/_logs/access.log
+404    96KB  https://www.goibibo.com/admin/access.log
+404    96KB  https://www.goibibo.com/admin/_logs/login.txt
+404    96KB  https://www.goibibo.com/admin/account.php
+404    96KB  https://www.goibibo.com/admin/account.aspx
+404    96KB  https://www.goibibo.com/admin/_logs/access_log
+404    96KB  https://www.goibibo.com/admin/account.js
+404    96KB  https://www.goibibo.com/admin/_logs/error-log
+404    96KB  https://www.goibibo.com/admin/access.txt
+404    96KB  https://www.goibibo.com/admin/account.jsp
+404    96KB  https://www.goibibo.com/admin/admin
+404    96KB  https://www.goibibo.com/admin/_logs/err.log
+404    96KB  https://www.goibibo.com/admin/access_log
+404    96KB  https://www.goibibo.com/admin/admin-login.php
+404    96KB  https://www.goibibo.com/admin/_logs/error_log
+404    96KB  https://www.goibibo.com/admin/admin-login
+404    96KB  https://www.goibibo.com/admin/admin-login.html
+404    96KB  https://www.goibibo.com/admin/admin_login.aspx
+404    96KB  https://www.goibibo.com/admin/adminer.php
+404    96KB  https://www.goibibo.com/admin/admin.js
+404    96KB  https://www.goibibo.com/admin/account.html
+404    96KB  https://www.goibibo.com/admin/admin.php
+404    96KB  https://www.goibibo.com/admin/admin_login
+404    96KB  https://www.goibibo.com/admin/account
+404    96KB  https://www.goibibo.com/admin/admin.html
+404    96KB  https://www.goibibo.com/admin/admin-login.js
+404    96KB  https://www.goibibo.com/admin/admin_login.jsp
+404    96KB  https://www.goibibo.com/admin/admin_login.js
+404    96KB  https://www.goibibo.com/admin/admin-login.aspx
+404    96KB  https://www.goibibo.com/admin/admin_login.html
+404    96KB  https://www.goibibo.com/admin/admin.jsp
+404    96KB  https://www.goibibo.com/admin/adminLogin.php
+404    96KB  https://www.goibibo.com/admin/adminLogin.html
+404    96KB  https://www.goibibo.com/admin/admin_login.php
+404    96KB  https://www.goibibo.com/admin/controlpanel
+404    96KB  https://www.goibibo.com/admin/controlpanel.php
+404    96KB  https://www.goibibo.com/admin/controlpanel.jsp
+404    96KB  https://www.goibibo.com/admin/controlpanel.js
+404    96KB  https://www.goibibo.com/admin/controlpanel.aspx
+404    96KB  https://www.goibibo.com/admin/cp.aspx
+404    96KB  https://www.goibibo.com/admin/adminLogin.aspx
+404    96KB  https://www.goibibo.com/admin/config.php
+404    96KB  https://www.goibibo.com/admin/cp.js
+404    96KB  https://www.goibibo.com/admin/admin-login.jsp
+404    96KB  https://www.goibibo.com/admin/admin/login
+404    96KB  https://www.goibibo.com/admin/admin.aspx
+404    96KB  https://www.goibibo.com/admin/adminLogin.jsp
+404    96KB  https://www.goibibo.com/admin/data/autosuggest
+404    96KB  https://www.goibibo.com/admin/default
+404    96KB  https://www.goibibo.com/admin/download.php
+404    96KB  https://www.goibibo.com/admin/error.txt
+404    96KB  https://www.goibibo.com/admin/cp
+404    96KB  https://www.goibibo.com/admin/cp.php
+404    96KB  https://www.goibibo.com/admin/cp.jsp
+404    96KB  https://www.goibibo.com/admin/error_log
+404    96KB  https://www.goibibo.com/admin/default/login.asp
+404    96KB  https://www.goibibo.com/admin/FCKeditor
+404    96KB  https://www.goibibo.com/admin/export.php
+404    96KB  https://www.goibibo.com/admin/default/admin.asp
+404    96KB  https://www.goibibo.com/admin/controlpanel.html
+404    96KB  https://www.goibibo.com/admin/cp.html
+404    96KB  https://www.goibibo.com/admin/errors.log
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+404    96KB  https://www.goibibo.com/admin/adminLogin.js
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/upload/php/upload.php
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/connectors/asp/upload.asp
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/connectors/php/connector.php
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/connectors/php/upload.php
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/upload/aspx/upload.aspx
+404    96KB  https://www.goibibo.com/admin/error.log
+404    96KB  https://www.goibibo.com/admin/default.asp
+404    96KB  https://www.goibibo.com/admin/home
+404    96KB  https://www.goibibo.com/admin/home.php
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/connectors/aspx/upload.aspx
+404    96KB  https://www.goibibo.com/admin/home.aspx
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/upload/asp/upload.asp
+404    96KB  https://www.goibibo.com/admin/home.html
+404    96KB  https://www.goibibo.com/admin/heapdump
+404    96KB  https://www.goibibo.com/admin/files.php
+404    96KB  https://www.goibibo.com/admin/index
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+404    96KB  https://www.goibibo.com/admin/adminLogin
+404    96KB  https://www.goibibo.com/admin/file.php
+404    96KB  https://www.goibibo.com/admin/index.html
+404    96KB  https://www.goibibo.com/admin/js/tinymce
+404    96KB  https://www.goibibo.com/admin/index.php
+404    96KB  https://www.goibibo.com/admin/index.jsp
+404    96KB  https://www.goibibo.com/admin/home.jsp
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php
+404    96KB  https://www.goibibo.com/admin/index.aspx
+404    96KB  https://www.goibibo.com/admin/login.jsp
+404    96KB  https://www.goibibo.com/admin/login.aspx
+404    96KB  https://www.goibibo.com/admin/home.js
+404    96KB  https://www.goibibo.com/admin/login.html
+404    96KB  https://www.goibibo.com/admin/log
+404    96KB  https://www.goibibo.com/admin/log/error.log
+404    96KB  https://www.goibibo.com/admin/includes/configure.php~
+404    96KB  https://www.goibibo.com/admin/login.asp
+404    96KB  https://www.goibibo.com/admin/login.py
+404    96KB  https://www.goibibo.com/admin/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+404    96KB  https://www.goibibo.com/admin/login.js
+404    96KB  https://www.goibibo.com/admin/logs/access-log
+404    96KB  https://www.goibibo.com/admin/login.do
+404    96KB  https://www.goibibo.com/admin/js/tiny_mce
+404    96KB  https://www.goibibo.com/admin/logs/access.log
+404    96KB  https://www.goibibo.com/admin/logon.jsp
+404    96KB  https://www.goibibo.com/admin/logon.html
+404    96KB  https://www.goibibo.com/admin/logs/err.log
+404    96KB  https://www.goibibo.com/admin/logon.php
+404    96KB  https://www.goibibo.com/admin/index.js
+404    96KB  https://www.goibibo.com/admin/login.php
+404    96KB  https://www.goibibo.com/admin/logon.js
+404    96KB  https://www.goibibo.com/admin/login.htm
+404    96KB  https://www.goibibo.com/admin/logs/login.txt
+404    96KB  https://www.goibibo.com/admin/logon
+404    96KB  https://www.goibibo.com/admin/manage
+404    96KB  https://www.goibibo.com/admin/manage/admin.asp
+404    96KB  https://www.goibibo.com/admin/logs/access_log
+404    96KB  https://www.goibibo.com/admin/manage/login.asp
+404    96KB  https://www.goibibo.com/admin/mysql2/index.php
+404    96KB  https://www.goibibo.com/admin/login.rb
+404    96KB  https://www.goibibo.com/admin/phpmyadmin2/index.php
+404    96KB  https://www.goibibo.com/admin/logs/error.log
+404    96KB  https://www.goibibo.com/admin/logs/error_log
+404    96KB  https://www.goibibo.com/admin/login
+404    96KB  https://www.goibibo.com/admin/logon.aspx
+404    96KB  https://www.goibibo.com/admin/mysql/index.php
+404    96KB  https://www.goibibo.com/admin/phpmyadmin/index.php
+404    96KB  https://www.goibibo.com/admin/PMA/index.php
+404    96KB  https://www.goibibo.com/admin/pol_log.txt
+404    96KB  https://www.goibibo.com/admin/portalcollect.php?f=http://xxx&t=js
+404    96KB  https://www.goibibo.com/admin/logs/error-log
+404    96KB  https://www.goibibo.com/admin/release
+404    96KB  https://www.goibibo.com/admin/phpMyAdmin/index.php
+404    96KB  https://www.goibibo.com/admin/tinymce
+404    96KB  https://www.goibibo.com/admin/pma/index.php
+404    96KB  https://www.goibibo.com/admin/uploads.php
+404    96KB  https://www.goibibo.com/admin/user_count.txt
+404    96KB  https://www.goibibo.com/admin/private/logs
+404    96KB  https://www.goibibo.com/admin/manage.asp
+404    96KB  https://www.goibibo.com/admin/upload.php
+404    96KB  https://www.goibibo.com/admin/phpMyAdmin
+404    96KB  https://www.goibibo.com/admin/views/ajax/autocomplete/user/a
+404    96KB  https://www.goibibo.com/admin/secure/logon.jsp
+404    96KB  https://www.goibibo.com/admin/tiny_mce
+404    96KB  https://www.goibibo.com/admin/scripts/fckeditor
+404    96KB  https://www.goibibo.com/admin/logs/errors.log
+404    96KB  https://www.goibibo.com/admin/signin
+403   399B   https://www.goibibo.com/analytics/saw.dll?getPreviewImage&previewFilePath=/etc/passwd
+301     0B   https://www.goibibo.com/apps    -> REDIRECTS TO: https://www.goibibo.com/apps/
+302     0B   https://www.goibibo.com/apps/    -> REDIRECTS TO: https://www.goibibo.com/mobile
+302     0B   https://www.goibibo.com/axis2-web//HappyAxis.jsp    -> REDIRECTS TO: https://www.goibibo.com/axis2-web/HappyAxis.jsp/
+301     0B   https://www.goibibo.com/axis    -> REDIRECTS TO: https://www.goibibo.com/offers/axis/
+302     0B   https://www.goibibo.com/axis2//axis2-web/HappyAxis.jsp    -> REDIRECTS TO: https://www.goibibo.com/axis2/axis2-web/HappyAxis.jsp/
+302     0B   https://www.goibibo.com/axis//happyaxis.jsp    -> REDIRECTS TO: https://www.goibibo.com/axis/happyaxis.jsp/
+200    90KB  https://www.goibibo.com/banner/
+302     0B   https://www.goibibo.com/bookContent.swf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bookContent.swf
+302     0B   https://www.goibibo.com/bmc_help2u/servlet/helpServlet2u?textareaWrap=/bmc_help2u/WEB-INF/web.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bmc_help2u/servlet/helpServlet2u?textareaWrap=/bmc_help2u/WEB-INF/web.xml
+302     0B   https://www.goibibo.com/bot.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bot.txt
+302     0B   https://www.goibibo.com/books.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/books.aspx
+302     0B   https://www.goibibo.com/boardadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/boardadmin
+302     0B   https://www.goibibo.com/blog/wp-content/backups/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/blog/wp-content/backups/
+302     0B   https://www.goibibo.com/bower_components    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bower_components
+302     0B   https://www.goibibo.com/book    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/book
+302     0B   https://www.goibibo.com/bmadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bmadmin
+302     0B   https://www.goibibo.com/books.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/books.js
+302     0B   https://www.goibibo.com/bnt_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bnt_admin
+302     0B   https://www.goibibo.com/boadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/boadmin
+302     0B   https://www.goibibo.com/bpadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bpadmin
+302     0B   https://www.goibibo.com/box.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/box.json
+302     0B   https://www.goibibo.com/books.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/books.php
+302     0B   https://www.goibibo.com/bluadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bluadmin
+302     0B   https://www.goibibo.com/bootstrap/tmp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bootstrap/tmp
+302     0B   https://www.goibibo.com/boot-finished    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/boot-finished
+302     0B   https://www.goibibo.com/boot.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/boot.php
+302     0B   https://www.goibibo.com/brokeradmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/brokeradmin
+302     0B   https://www.goibibo.com/board    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/board
+302     0B   https://www.goibibo.com/bower.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bower.json
+302     0B   https://www.goibibo.com/brunch-config.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/brunch-config.js
+302     0B   https://www.goibibo.com/brunch-config.coffee    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/brunch-config.coffee
+302     0B   https://www.goibibo.com/bootstrap/data    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bootstrap/data
+302     0B   https://www.goibibo.com/Brocfile.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Brocfile.js
+302     0B   https://www.goibibo.com/Bootstrap    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Bootstrap
+302     0B   https://www.goibibo.com/browse    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/browse
+302     0B   https://www.goibibo.com/books.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/books.jsp
+302     0B   https://www.goibibo.com/borat    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/borat
+302     0B   https://www.goibibo.com/bower_components/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bower_components/
+302     0B   https://www.goibibo.com/bugs    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bugs
+302     0B   https://www.goibibo.com/Brocfile.coffee    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Brocfile.coffee
+302     0B   https://www.goibibo.com/bugs/verify.php?confirm_hash=&id=1    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bugs/verify.php?confirm_hash=&id=1
+302     0B   https://www.goibibo.com/bsmdashboards/messagebroker/amfsecure    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bsmdashboards/messagebroker/amfsecure
+302     0B   https://www.goibibo.com/Build    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Build
+302     0B   https://www.goibibo.com/Build.bat    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Build.bat
+302     0B   https://www.goibibo.com/build    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build
+302     0B   https://www.goibibo.com/build-iPhoneSimulator/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build-iPhoneSimulator/
+302     0B   https://www.goibibo.com/books.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/books.html
+302     0B   https://www.goibibo.com/build.local.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build.local.xml
+302     0B   https://www.goibibo.com/build.sh    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build.sh
+302     0B   https://www.goibibo.com/build.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build.properties
+302     0B   https://www.goibibo.com/build/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build/
+302     0B   https://www.goibibo.com/build/build.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build/build.properties
+302     0B   https://www.goibibo.com/buck.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/buck.sql
+302     0B   https://www.goibibo.com/buffer.conf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/buffer.conf
+302     0B   https://www.goibibo.com/build.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build.log
+302     0B   https://www.goibibo.com/bsadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bsadmin
+302     0B   https://www.goibibo.com/build-iPhoneOS/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build-iPhoneOS/
+302     0B   https://www.goibibo.com/browser/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/browser/
+302     0B   https://www.goibibo.com/build.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build.xml
+302     0B   https://www.goibibo.com/buttons    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/buttons
+302     0B   https://www.goibibo.com/c    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/c
+302     0B   https://www.goibibo.com/build_isolated/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build_isolated/
+302     0B   https://www.goibibo.com/busadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/busadmin
+302     0B   https://www.goibibo.com/BundleArtifacts/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/BundleArtifacts/
+302     0B   https://www.goibibo.com/c100.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/c100.php
+302     0B   https://www.goibibo.com/buildNumber.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/buildNumber.properties
+302     0B   https://www.goibibo.com/c22.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/c22.php
+302     0B   https://www.goibibo.com/c-h.v2.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/c-h.v2.php
+302     0B   https://www.goibibo.com/bx_1c_import.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bx_1c_import.php
+302     0B   https://www.goibibo.com/business    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/business
+302     0B   https://www.goibibo.com/bvadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bvadmin
+302     0B   https://www.goibibo.com/businessadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/businessadmin
+302     0B   https://www.goibibo.com/bullet    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bullet
+302     0B   https://www.goibibo.com/buy    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/buy
+302     0B   https://www.goibibo.com/cabal-dev    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cabal-dev
+302     0B   https://www.goibibo.com/c99shell.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/c99shell.php
+302     0B   https://www.goibibo.com/c99.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/c99.php
+302     0B   https://www.goibibo.com/bundles/kibana.style.css    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bundles/kibana.style.css
+302     0B   https://www.goibibo.com/bw-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bw-admin
+302     0B   https://www.goibibo.com/build_config_private.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build_config_private.ini
+302     0B   https://www.goibibo.com/ca.kru    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ca.kru
+302     0B   https://www.goibibo.com/cabal.sandbox.config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cabal.sandbox.config
+302     0B   https://www.goibibo.com/cabal.project.local~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cabal.project.local~
+302     0B   https://www.goibibo.com/cabal.project.local    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cabal.project.local
+302     0B   https://www.goibibo.com/button    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/button
+302     0B   https://www.goibibo.com/cache/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cache/
+302     0B   https://www.goibibo.com/cache-downloads    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cache-downloads
+302     0B   https://www.goibibo.com/bundles/login.bundle.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/bundles/login.bundle.js
+302     0B   https://www.goibibo.com/cache_html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cache_html
+302     0B   https://www.goibibo.com/build/Release    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/build/Release
+302     0B   https://www.goibibo.com/cachemonitor/statistics.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cachemonitor/statistics.jsp
+302     0B   https://www.goibibo.com/cache    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cache
+302     0B   https://www.goibibo.com/caches    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/caches
+302     0B   https://www.goibibo.com/cacheadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cacheadmin
+302     0B   https://www.goibibo.com/cachemgr.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cachemgr.cgi
+302     0B   https://www.goibibo.com/cacti    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cacti
+302     0B   https://www.goibibo.com/calendar    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/calendar
+302     0B   https://www.goibibo.com/cal    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cal
+302     0B   https://www.goibibo.com/Cakefile    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Cakefile
+302     0B   https://www.goibibo.com/calendar.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/calendar.php
+302     0B   https://www.goibibo.com/cacti/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cacti/
+302     0B   https://www.goibibo.com/calendar.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/calendar.js
+302     0B   https://www.goibibo.com/camunda    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/camunda
+302     0B   https://www.goibibo.com/camunda-welcome    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/camunda-welcome
+302     0B   https://www.goibibo.com/camadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/camadmin
+302     0B   https://www.goibibo.com/calendar.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/calendar.jsp
+302     0B   https://www.goibibo.com/capistrano/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/capistrano/
+302     0B   https://www.goibibo.com/calendar.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/calendar.html
+302     0B   https://www.goibibo.com/captures/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/captures/
+302     0B   https://www.goibibo.com/Capfile    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Capfile
+302     0B   https://www.goibibo.com/careers    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/careers
+302     0B   https://www.goibibo.com/cadmins/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cadmins/
+302     0B   https://www.goibibo.com/cachemonitor    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cachemonitor
+302     0B   https://www.goibibo.com/cart    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cart
+302     0B   https://www.goibibo.com/calendar.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/calendar.aspx
+302     0B   https://www.goibibo.com/cadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cadmin
+302     0B   https://www.goibibo.com/cart.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cart.aspx
+302     0B   https://www.goibibo.com/callback    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/callback
+302     0B   https://www.goibibo.com/car    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/car
+302     0B   https://www.goibibo.com/Cargo.lock    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Cargo.lock
+302     0B   https://www.goibibo.com/Carthage/Build    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Carthage/Build
+302     0B   https://www.goibibo.com/cache/sql_error_latest.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cache/sql_error_latest.cgi
+302     0B   https://www.goibibo.com/cart.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cart.jsp
+302     0B   https://www.goibibo.com/cancel.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cancel.html
+302     0B   https://www.goibibo.com/cart.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cart.js
+302     0B   https://www.goibibo.com/catalog.wci    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog.wci
+302     0B   https://www.goibibo.com/catalog    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog
+302     0B   https://www.goibibo.com/catalog_admin.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog_admin.aspx
+302     0B   https://www.goibibo.com/catalog_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog_admin
+302     0B   https://www.goibibo.com/cart.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cart.html
+302     0B   https://www.goibibo.com/catalog_admin.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog_admin.jsp
+302     0B   https://www.goibibo.com/catalog_admin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog_admin.php
+302     0B   https://www.goibibo.com/catalogsearch    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogsearch
+302     0B   https://www.goibibo.com/catalogsearch.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogsearch.aspx
+302     0B   https://www.goibibo.com/cassandra/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cassandra/
+302     0B   https://www.goibibo.com/catalogsearch.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogsearch.html
+302     0B   https://www.goibibo.com/cartadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cartadmin
+302     0B   https://www.goibibo.com/category    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/category
+302     0B   https://www.goibibo.com/categories    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/categories
+302     0B   https://www.goibibo.com/cart.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cart.php
+302     0B   https://www.goibibo.com/cbx-portal/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cbx-portal/
+302     0B   https://www.goibibo.com/catalog_admin.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog_admin.js
+302     0B   https://www.goibibo.com/cbx-portal/js/zeroclipboard/ZeroClipboard.swf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cbx-portal/js/zeroclipboard/ZeroClipboard.swf
+302     0B   https://www.goibibo.com/catalog_admin.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalog_admin.html
+302     0B   https://www.goibibo.com/CATKIN_IGNORE    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CATKIN_IGNORE
+302     0B   https://www.goibibo.com/cc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cc
+302     0B   https://www.goibibo.com/ccadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ccadmin
+302     0B   https://www.goibibo.com/catalogsearch.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogsearch.jsp
+302     0B   https://www.goibibo.com/cc-errors.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cc-errors.txt
+302     0B   https://www.goibibo.com/cdadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cdadmin
+302     0B   https://www.goibibo.com/catalogsearch.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogsearch.js
+302     0B   https://www.goibibo.com/cb-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cb-admin
+302     0B   https://www.goibibo.com/cells    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cells
+302     0B   https://www.goibibo.com/cc-log.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cc-log.txt
+302     0B   https://www.goibibo.com/cerberusweb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cerberusweb
+302     0B   https://www.goibibo.com/ccbill.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ccbill.log
+302     0B   https://www.goibibo.com/centreon/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/centreon/
+302     0B   https://www.goibibo.com/cert/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cert/
+302     0B   https://www.goibibo.com/certcontrol/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/certcontrol/
+302     0B   https://www.goibibo.com/ccct-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ccct-admin
+302     0B   https://www.goibibo.com/celerybeat-schedule    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/celerybeat-schedule
+302     0B   https://www.goibibo.com/certenroll/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/certenroll/
+302     0B   https://www.goibibo.com/cc_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cc_admin
+302     0B   https://www.goibibo.com/certificate    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/certificate
+302     0B   https://www.goibibo.com/certprov/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/certprov/
+302     0B   https://www.goibibo.com/catalogadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogadmin
+302     0B   https://www.goibibo.com/cfexec.cfm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cfexec.cfm
+302     0B   https://www.goibibo.com/cfg/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cfg/
+302     0B   https://www.goibibo.com/certsrv/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/certsrv/
+302     0B   https://www.goibibo.com/CFIDE/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CFIDE/
+302     0B   https://www.goibibo.com/CFIDE    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CFIDE
+302     0B   https://www.goibibo.com/catalogsearch.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/catalogsearch.php
+302     0B   https://www.goibibo.com/CFIDE/administrator/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CFIDE/administrator/
+302     0B   https://www.goibibo.com/certs/server.key    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/certs/server.key
+302     0B   https://www.goibibo.com/CFIDE/Administrator/startstop.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CFIDE/Administrator/startstop.html
+302     0B   https://www.goibibo.com/cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi
+302     0B   https://www.goibibo.com/cell.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cell.xml
+302     0B   https://www.goibibo.com/cfg/cpp/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cfg/cpp/
+302     0B   https://www.goibibo.com/cgi-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-admin
+302     0B   https://www.goibibo.com/CFIDE/Administrator/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CFIDE/Administrator/
+302     0B   https://www.goibibo.com/ccp14admin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ccp14admin/
+302     0B   https://www.goibibo.com/cgi-bin/a1stats/a1disp.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/a1stats/a1disp.cgi
+302     0B   https://www.goibibo.com/cgi-bin/awstats/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/awstats/
+302     0B   https://www.goibibo.com/cgi-bin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/
+302     0B   https://www.goibibo.com/cgi-bin/index.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/index.html
+302     0B   https://www.goibibo.com/cgi-bin/imagemap.exe?2,2    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/imagemap.exe?2,2
+302     0B   https://www.goibibo.com/CFIDE/scripts/ajax/FCKeditor    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CFIDE/scripts/ajax/FCKeditor
+302     0B   https://www.goibibo.com/cfide/administrator/index.cfm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cfide/administrator/index.cfm
+302     0B   https://www.goibibo.com/cgi-bin/mt/mt-xmlrpc.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/mt/mt-xmlrpc.cgi
+302     0B   https://www.goibibo.com/cgi-bin/awstats.pl    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/awstats.pl
+302     0B   https://www.goibibo.com/cgi-bin/htimage.exe?2,2    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/htimage.exe?2,2
+302     0B   https://www.goibibo.com/cgi-bin/mt7/mt-xmlrpc.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/mt7/mt-xmlrpc.cgi
+302     0B   https://www.goibibo.com/cgi-bin/mt7/mt.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/mt7/mt.cgi
+302     0B   https://www.goibibo.com/cgi-bin/php.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/php.ini
+302     0B   https://www.goibibo.com/cgi-bin/login    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/login
+302     0B   https://www.goibibo.com/cgi-bin/login.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/login.cgi
+302     0B   https://www.goibibo.com/cgi-bin/mt-xmlrpc.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/mt-xmlrpc.cgi
+302     0B   https://www.goibibo.com/cgi-bin/login.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/login.php
+302     0B   https://www.goibibo.com/cgi-bin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin
+302     0B   https://www.goibibo.com/cgi-bin/ViewLog.asp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/ViewLog.asp
+302     0B   https://www.goibibo.com/cgi-bin/mt/mt.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/mt/mt.cgi
+302     0B   https://www.goibibo.com/cgi-bin/mt.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/mt.cgi
+302     0B   https://www.goibibo.com/cgi-bin/htmlscript    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/htmlscript
+302     0B   https://www.goibibo.com/cgi-bin/printenv.pl    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/printenv.pl
+302     0B   https://www.goibibo.com/cgi-bin/printenv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/printenv
+302     0B   https://www.goibibo.com/cgi-exe/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-exe/
+302     0B   https://www.goibibo.com/cgi-bin/test.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/test.cgi
+302     0B   https://www.goibibo.com/cgi-bin2/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin2/
+302     0B   https://www.goibibo.com/cgi-bin/test-cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-bin/test-cgi
+302     0B   https://www.goibibo.com/cgi-shl/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-shl/
+302     0B   https://www.goibibo.com/cgi-local/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-local/
+302     0B   https://www.goibibo.com/cgi-win/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-win/
+302     0B   https://www.goibibo.com/cgi-sys/realsignup.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-sys/realsignup.cgi
+302     0B   https://www.goibibo.com/cgi.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi.jsp
+302     0B   https://www.goibibo.com/cgi.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi.aspx
+302     0B   https://www.goibibo.com/cgi-perl/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-perl/
+302     0B   https://www.goibibo.com/cgi.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi.js
+302     0B   https://www.goibibo.com/cgi/account/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi/account/
+302     0B   https://www.goibibo.com/cgi-dos/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-dos/
+302     0B   https://www.goibibo.com/cgi.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi.php
+302     0B   https://www.goibibo.com/cgi/common.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi/common.cgi
+302     0B   https://www.goibibo.com/cgis/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgis/
+302     0B   https://www.goibibo.com/cgi.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi.html
+302     0B   https://www.goibibo.com/cgi.pl/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi.pl/
+302     0B   https://www.goibibo.com/CgiStart?page=Single    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CgiStart?page=Single
+302     0B   https://www.goibibo.com/cgi-sys    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-sys
+302     0B   https://www.goibibo.com/change    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/change
+302     0B   https://www.goibibo.com/cgi/common.cg    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi/common.cg
+302     0B   https://www.goibibo.com/cgibin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgibin/
+302     0B   https://www.goibibo.com/Changelog    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Changelog
+302     0B   https://www.goibibo.com/CHANGELOG    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG
+302     0B   https://www.goibibo.com/cgi/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi/
+302     0B   https://www.goibibo.com/changelog    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/changelog
+302     0B   https://www.goibibo.com/change.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/change.log
+302     0B   https://www.goibibo.com/CHANGELOG.HTML    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.HTML
+302     0B   https://www.goibibo.com/CHANGELOG.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.html
+302     0B   https://www.goibibo.com/ChangeLog.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ChangeLog.html
+302     0B   https://www.goibibo.com/Changelog.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Changelog.html
+302     0B   https://www.goibibo.com/changeall.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/changeall.php
+302     0B   https://www.goibibo.com/CHANGELOG.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.log
+302     0B   https://www.goibibo.com/CHANGELOG.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.md
+302     0B   https://www.goibibo.com/Cgishell.pl    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Cgishell.pl
+302     0B   https://www.goibibo.com/ChangeLog.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ChangeLog.md
+302     0B   https://www.goibibo.com/Changelog.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Changelog.md
+302     0B   https://www.goibibo.com/changelog.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/changelog.md
+302     0B   https://www.goibibo.com/CHANGELOG.TXT    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.TXT
+302     0B   https://www.goibibo.com/ChangeLog    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ChangeLog
+302     0B   https://www.goibibo.com/CHANGELOG.MD    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.MD
+302     0B   https://www.goibibo.com/changelog.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/changelog.txt
+302     0B   https://www.goibibo.com/CHANGES    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGES
+302     0B   https://www.goibibo.com/CHANGES.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGES.html
+302     0B   https://www.goibibo.com/CHANGELOG.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGELOG.txt
+302     0B   https://www.goibibo.com/changelog.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/changelog.html
+302     0B   https://www.goibibo.com/ChangeLog.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ChangeLog.txt
+302     0B   https://www.goibibo.com/chat    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chat
+302     0B   https://www.goibibo.com/Changelog.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Changelog.txt
+302     0B   https://www.goibibo.com/chat.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chat.aspx
+302     0B   https://www.goibibo.com/chatadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chatadmin
+302     0B   https://www.goibibo.com/chat.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chat.js
+302     0B   https://www.goibibo.com/CHANGES.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CHANGES.md
+302     0B   https://www.goibibo.com/changes.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/changes.txt
+302     0B   https://www.goibibo.com/cgi-sys/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cgi-sys/
+302     0B   https://www.goibibo.com/check.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/check.php
+302     0B   https://www.goibibo.com/checkapache.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkapache.html
+302     0B   https://www.goibibo.com/chat.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chat.php
+302     0B   https://www.goibibo.com/checked_accounts.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checked_accounts.txt
+302     0B   https://www.goibibo.com/checklogin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checklogin
+302     0B   https://www.goibibo.com/chat.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chat.jsp
+302     0B   https://www.goibibo.com/check    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/check
+302     0B   https://www.goibibo.com/checkadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkadmin
+302     0B   https://www.goibibo.com/checkadmin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkadmin.php
+302     0B   https://www.goibibo.com/checklogin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checklogin.php
+302     0B   https://www.goibibo.com/chef/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chef/
+302     0B   https://www.goibibo.com/checkouts/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkouts/
+302     0B   https://www.goibibo.com/Cheffile    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Cheffile
+302     0B   https://www.goibibo.com/chkadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chkadmin
+302     0B   https://www.goibibo.com/checkout    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkout
+302     0B   https://www.goibibo.com/checkuser    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkuser
+302     0B   https://www.goibibo.com/chubb.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chubb.xml
+302     0B   https://www.goibibo.com/chat.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chat.html
+302     0B   https://www.goibibo.com/cimjobpostadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cimjobpostadmin
+302     0B   https://www.goibibo.com/cidr.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cidr.txt
+302     0B   https://www.goibibo.com/chklogin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chklogin
+302     0B   https://www.goibibo.com/circle.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/circle.yml
+302     0B   https://www.goibibo.com/Citrix//AccessPlatform/auth/clientscripts/cookies.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Citrix//AccessPlatform/auth/clientscripts/cookies.js
+302     0B   https://www.goibibo.com/citrix/AccessPlatform/auth/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/citrix/AccessPlatform/auth/
+302     0B   https://www.goibibo.com/checkstyle/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkstyle/
+302     0B   https://www.goibibo.com/checkuser.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/checkuser.php
+302     0B   https://www.goibibo.com/ci/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ci/
+302     0B   https://www.goibibo.com/Citrix/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Citrix/
+302     0B   https://www.goibibo.com/city_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/city_admin
+302     0B   https://www.goibibo.com/city.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/city.html
+302     0B   https://www.goibibo.com/citrix/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/citrix/
+302     0B   https://www.goibibo.com/citrix/AccessPlatform/auth/clientscripts/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/citrix/AccessPlatform/auth/clientscripts/
+302     0B   https://www.goibibo.com/citydesk.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/citydesk.xml
+302     0B   https://www.goibibo.com/Citrix/PNAgent/config.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Citrix/PNAgent/config.xml
+302     0B   https://www.goibibo.com/chefignore    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/chefignore
+302     0B   https://www.goibibo.com/ckeditor/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor/
+302     0B   https://www.goibibo.com/ckeditor/ckfinder/core/connector/asp/connector.asp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor/ckfinder/core/connector/asp/connector.asp
+302     0B   https://www.goibibo.com/cityadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cityadmin
+302     0B   https://www.goibibo.com/ckeditor/ckfinder/core/connector/php/connector.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor/ckfinder/core/connector/php/connector.php
+302     0B   https://www.goibibo.com/ckeditor/samples/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor/samples/
+302     0B   https://www.goibibo.com/cjadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cjadmin
+302     0B   https://www.goibibo.com/ckeditor/ckfinder/ckfinder.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor/ckfinder/ckfinder.html
+302     0B   https://www.goibibo.com/class    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/class
+302     0B   https://www.goibibo.com/ckeditor/ckfinder/core/connector/aspx/connector.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor/ckfinder/core/connector/aspx/connector.aspx
+302     0B   https://www.goibibo.com/classadmin.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classadmin.js
+302     0B   https://www.goibibo.com/classadmin.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classadmin.aspx
+302     0B   https://www.goibibo.com/classadmin.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classadmin.jsp
+302     0B   https://www.goibibo.com/classes    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes
+302     0B   https://www.goibibo.com/ckeditor    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckeditor
+302     0B   https://www.goibibo.com/ckfinder/ckfinder.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckfinder/ckfinder.html
+302     0B   https://www.goibibo.com/claroline/phpMyAdmin/index.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/claroline/phpMyAdmin/index.php
+302     0B   https://www.goibibo.com/classes.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes.html
+302     0B   https://www.goibibo.com/classadmin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classadmin.php
+302     0B   https://www.goibibo.com/ckfinder/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ckfinder/
+302     0B   https://www.goibibo.com/Citrix/AccessPlatform/auth/clientscripts/login.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Citrix/AccessPlatform/auth/clientscripts/login.js
+302     0B   https://www.goibibo.com/classes.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes.aspx
+302     0B   https://www.goibibo.com/classes.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes.php
+302     0B   https://www.goibibo.com/classes/gladius/README.TXT    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes/gladius/README.TXT
+302     0B   https://www.goibibo.com/classes_gen    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes_gen
+302     0B   https://www.goibibo.com/classic.jsonp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classic.jsonp
+302     0B   https://www.goibibo.com/classadmin.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classadmin.html
+302     0B   https://www.goibibo.com/Classpath/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Classpath/
+302     0B   https://www.goibibo.com/classes/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes/
+302     0B   https://www.goibibo.com/clear    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clear
+302     0B   https://www.goibibo.com/cleanup.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cleanup.log
+302     0B   https://www.goibibo.com/client    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client
+302     0B   https://www.goibibo.com/click    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/click
+302     0B   https://www.goibibo.com/client.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client.jsp
+302     0B   https://www.goibibo.com/classes.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes.js
+302     0B   https://www.goibibo.com/classifiedadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classifiedadmin
+302     0B   https://www.goibibo.com/client.ovpn    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client.ovpn
+302     0B   https://www.goibibo.com/client.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client.js
+302     0B   https://www.goibibo.com/classes.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes.jsp
+302     0B   https://www.goibibo.com/cli/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cli/
+302     0B   https://www.goibibo.com/client.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client.aspx
+302     0B   https://www.goibibo.com/client.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client.html
+302     0B   https://www.goibibo.com/clientadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clientadmin
+302     0B   https://www.goibibo.com/ClientBin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ClientBin/
+302     0B   https://www.goibibo.com/cliente/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cliente/
+302     0B   https://www.goibibo.com/classic.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classic.json
+302     0B   https://www.goibibo.com/cliente/downloads/h4xor.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cliente/downloads/h4xor.php
+302     0B   https://www.goibibo.com/client_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client_admin
+302     0B   https://www.goibibo.com/client_secret.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client_secret.json
+302     0B   https://www.goibibo.com/client_secrets.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client_secrets.json
+302     0B   https://www.goibibo.com/clients    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients
+302     0B   https://www.goibibo.com/clients.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.aspx
+302     0B   https://www.goibibo.com/clients.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.php
+302     0B   https://www.goibibo.com/ClientAccessPolicy.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ClientAccessPolicy.xml
+302     0B   https://www.goibibo.com/clients.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.jsp
+302     0B   https://www.goibibo.com/client.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/client.php
+302     0B   https://www.goibibo.com/clients.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.html
+302     0B   https://www.goibibo.com/clients.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.js
+302     0B   https://www.goibibo.com/clients.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.sql
+302     0B   https://www.goibibo.com/classes/cookie.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/classes/cookie.txt
+302     0B   https://www.goibibo.com/clocktower    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clocktower
+302     0B   https://www.goibibo.com/clients.zip    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.zip
+302     0B   https://www.goibibo.com/cloud-config.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cloud-config.txt
+302     0B   https://www.goibibo.com/clients.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.mdb
+302     0B   https://www.goibibo.com/cloud/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cloud/
+302     0B   https://www.goibibo.com/clients.sqlite    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.sqlite
+302     0B   https://www.goibibo.com/club_admin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/club_admin.php
+302     0B   https://www.goibibo.com/club_admin.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/club_admin.html
+302     0B   https://www.goibibo.com/club_admin.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/club_admin.js
+302     0B   https://www.goibibo.com/club_admin.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/club_admin.aspx
+302     0B   https://www.goibibo.com/cm-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cm-admin
+302     0B   https://www.goibibo.com/cloudfoundryapplication    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cloudfoundryapplication
+302     0B   https://www.goibibo.com/clients.tar.gz    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clients.tar.gz
+302     0B   https://www.goibibo.com/CMakeFiles    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CMakeFiles
+302     0B   https://www.goibibo.com/clientsadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/clientsadmin
+302     0B   https://www.goibibo.com/ClusterRollout    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ClusterRollout
+302     0B   https://www.goibibo.com/cluster/cluster    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cluster/cluster
+302     0B   https://www.goibibo.com/cmadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmadmin
+302     0B   https://www.goibibo.com/cmd-asp-5.1.asp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmd-asp-5.1.asp
+302     0B   https://www.goibibo.com/cmd    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmd
+302     0B   https://www.goibibo.com/cmd.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmd.php
+302     0B   https://www.goibibo.com/cmdasp.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmdasp.aspx
+302     0B   https://www.goibibo.com/CMakeLists.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CMakeLists.txt
+302     0B   https://www.goibibo.com/cloud    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cloud
+302     0B   https://www.goibibo.com/cms    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms
+302     0B   https://www.goibibo.com/CMakeScripts    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CMakeScripts
+302     0B   https://www.goibibo.com/cmdasp.asp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmdasp.asp
+302     0B   https://www.goibibo.com/cmake_install.cmake    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmake_install.cmake
+302     0B   https://www.goibibo.com/club_admin.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/club_admin.jsp
+302     0B   https://www.goibibo.com/cms.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms.html
+302     0B   https://www.goibibo.com/cmdjsp.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmdjsp.jsp
+302     0B   https://www.goibibo.com/cms.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms.js
+302     0B   https://www.goibibo.com/cms.csproj    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms.csproj
+302     0B   https://www.goibibo.com/cms.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms.aspx
+302     0B   https://www.goibibo.com/cms/cms.csproj    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/cms.csproj
+302     0B   https://www.goibibo.com/cms/design.htm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/design.htm
+302     0B   https://www.goibibo.com/cms/themes/cp_themes/default/images/swfupload.swf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/themes/cp_themes/default/images/swfupload.swf
+302     0B   https://www.goibibo.com/CMakeCache.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CMakeCache.txt
+302     0B   https://www.goibibo.com/cms/Web.config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/Web.config
+302     0B   https://www.goibibo.com/cms_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms_admin
+302     0B   https://www.goibibo.com/cms-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms-admin
+302     0B   https://www.goibibo.com/cms/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/
+302     0B   https://www.goibibo.com/cmsadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmsadmin/
+302     0B   https://www.goibibo.com/cmsample/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmsample/
+302     0B   https://www.goibibo.com/cms.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms.jsp
+302     0B   https://www.goibibo.com/cmsadmin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmsadmin.php
+302     0B   https://www.goibibo.com/cms.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms.php
+302     0B   https://www.goibibo.com/cncat_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cncat_admin
+302     0B   https://www.goibibo.com/COadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/COadmin
+302     0B   https://www.goibibo.com/cms/components/login.ascx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/components/login.ascx
+302     0B   https://www.goibibo.com/cmscockpit    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmscockpit
+302     0B   https://www.goibibo.com/code    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/code
+302     0B   https://www.goibibo.com/cms/themes/cp_themes/default/images/swfupload_f9.swf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cms/themes/cp_themes/default/images/swfupload_f9.swf
+302     0B   https://www.goibibo.com/cmsadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmsadmin
+302     0B   https://www.goibibo.com/columns    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/columns
+302     0B   https://www.goibibo.com/cmscockpit/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cmscockpit/
+302     0B   https://www.goibibo.com/cni-conf.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cni-conf.json
+302     0B   https://www.goibibo.com/com    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/com
+302     0B   https://www.goibibo.com/com.ibm.ws.console.events/runtime_messages.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/com.ibm.ws.console.events/runtime_messages.jsp
+302     0B   https://www.goibibo.com/codeship/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/codeship/
+302     0B   https://www.goibibo.com/com.tar.gz    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/com.tar.gz
+302     0B   https://www.goibibo.com/com.zip    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/com.zip
+302     0B   https://www.goibibo.com/collectd/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/collectd/
+302     0B   https://www.goibibo.com/collectl/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/collectl/
+302     0B   https://www.goibibo.com/cnt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cnt
+302     0B   https://www.goibibo.com/comment-admin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comment-admin.php
+302     0B   https://www.goibibo.com/comment-admin.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comment-admin.jsp
+302     0B   https://www.goibibo.com/comment    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comment
+302     0B   https://www.goibibo.com/codeception.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/codeception.yml
+302     0B   https://www.goibibo.com/common    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common
+302     0B   https://www.goibibo.com/comments    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comments
+302     0B   https://www.goibibo.com/command.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/command.php
+302     0B   https://www.goibibo.com/common.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.aspx
+302     0B   https://www.goibibo.com/CMakeLists.txt.user    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CMakeLists.txt.user
+302     0B   https://www.goibibo.com/comment-admin.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comment-admin.aspx
+302     0B   https://www.goibibo.com/comment-admin.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comment-admin.html
+302     0B   https://www.goibibo.com/common.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.js
+302     0B   https://www.goibibo.com/common.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.xml
+302     0B   https://www.goibibo.com/common/config/api.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common/config/api.ini
+302     0B   https://www.goibibo.com/common/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common/
+302     0B   https://www.goibibo.com/community    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/community
+302     0B   https://www.goibibo.com/common.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.php
+302     0B   https://www.goibibo.com/company    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/company
+302     0B   https://www.goibibo.com/common.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.inc
+302     0B   https://www.goibibo.com/com.ibm.ws.console.events    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/com.ibm.ws.console.events
+302     0B   https://www.goibibo.com/compat    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/compat
+302     0B   https://www.goibibo.com/compile_commands.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/compile_commands.json
+302     0B   https://www.goibibo.com/compile    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/compile
+302     0B   https://www.goibibo.com/common.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.html
+302     0B   https://www.goibibo.com/component.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/component.php
+302     0B   https://www.goibibo.com/comadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comadmin
+302     0B   https://www.goibibo.com/component.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/component.jsp
+302     0B   https://www.goibibo.com/component.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/component.html
+302     0B   https://www.goibibo.com/components/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/components/
+302     0B   https://www.goibibo.com/composer.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/composer.json
+302     0B   https://www.goibibo.com/compass/logon.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/compass/logon.jsp
+302     0B   https://www.goibibo.com/composer.lock    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/composer.lock
+302     0B   https://www.goibibo.com/compass.rb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/compass.rb
+302     0B   https://www.goibibo.com/comment-admin.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/comment-admin.js
+302     0B   https://www.goibibo.com/component.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/component.js
+302     0B   https://www.goibibo.com/component.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/component.aspx
+302     0B   https://www.goibibo.com/components/login.ascx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/components/login.ascx
+302     0B   https://www.goibibo.com/components    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/components
+302     0B   https://www.goibibo.com/conditions    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conditions
+302     0B   https://www.goibibo.com/common/config/db.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common/config/db.ini
+302     0B   https://www.goibibo.com/component    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/component
+302     0B   https://www.goibibo.com/composer.phar    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/composer.phar
+302     0B   https://www.goibibo.com/conf.inc.php~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf.inc.php~
+302     0B   https://www.goibibo.com/common.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/common.jsp
+302     0B   https://www.goibibo.com/conf.php.swp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf.php.swp
+302     0B   https://www.goibibo.com/concrete/config/banned_words.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/concrete/config/banned_words.txt
+302     0B   https://www.goibibo.com/conf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf
+302     0B   https://www.goibibo.com/conf/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/
+302     0B   https://www.goibibo.com/conf/Catalina    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/Catalina
+302     0B   https://www.goibibo.com/compadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/compadmin
+302     0B   https://www.goibibo.com/conf.php.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf.php.bak
+302     0B   https://www.goibibo.com/conf/catalina.policy    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/catalina.policy
+302     0B   https://www.goibibo.com/conf/catalina.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/catalina.properties
+302     0B   https://www.goibibo.com/conf.swp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf.swp
+302     0B   https://www.goibibo.com/conf/context.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/context.xml
+302     0B   https://www.goibibo.com/conf/server.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/server.xml
+302     0B   https://www.goibibo.com/conf.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf.html
+302     0B   https://www.goibibo.com/composer/installed.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/composer/installed.json
+302     0B   https://www.goibibo.com/conf/tomcat8.conf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/tomcat8.conf
+302     0B   https://www.goibibo.com/conferences    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conferences
+302     0B   https://www.goibibo.com/conf/logging.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/logging.properties
+302     0B   https://www.goibibo.com/config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config
+302     0B   https://www.goibibo.com/conf/tomcat-users.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/tomcat-users.xml
+302     0B   https://www.goibibo.com/config.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.jsp
+302     0B   https://www.goibibo.com/config.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.aspx
+302     0B   https://www.goibibo.com/config.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.js
+302     0B   https://www.goibibo.com/config.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.html
+302     0B   https://www.goibibo.com/config.codekit    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.codekit
+302     0B   https://www.goibibo.com/config.codekit3    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.codekit3
+302     0B   https://www.goibibo.com/config.core    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.core
+302     0B   https://www.goibibo.com/config.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php
+302     0B   https://www.goibibo.com/config.guess    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.guess
+302     0B   https://www.goibibo.com/config.h.in    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.h.in
+302     0B   https://www.goibibo.com/config.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc
+302     0B   https://www.goibibo.com/config.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.bak
+302     0B   https://www.goibibo.com/conf.php.old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf.php.old
+302     0B   https://www.goibibo.com/config.inc.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc.bak
+302     0B   https://www.goibibo.com/config.inc.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc.php
+302     0B   https://www.goibibo.com/config.inc.old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc.old
+302     0B   https://www.goibibo.com/config.inc.php.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc.php.txt
+302     0B   https://www.goibibo.com/config.hash    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.hash
+302     0B   https://www.goibibo.com/conf/web.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf/web.xml
+302     0B   https://www.goibibo.com/config.inc.php~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc.php~
+302     0B   https://www.goibibo.com/config.inc.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc.txt
+302     0B   https://www.goibibo.com/config.inc~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.inc~
+302     0B   https://www.goibibo.com/config.json.BAK    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.json.BAK
+302     0B   https://www.goibibo.com/config.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.ini
+302     0B   https://www.goibibo.com/config.ini.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.ini.txt
+302     0B   https://www.goibibo.com/config.local    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.local
+302     0B   https://www.goibibo.com/config.old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.old
+302     0B   https://www.goibibo.com/config.local.php~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.local.php~
+302     0B   https://www.goibibo.com/config.php-eb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php-eb
+302     0B   https://www.goibibo.com/config.php.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.bak
+302     0B   https://www.goibibo.com/config.json.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.json.bak
+302     0B   https://www.goibibo.com/config.php.new    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.new
+302     0B   https://www.goibibo.com/config.php.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.inc
+302     0B   https://www.goibibo.com/config.php.old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.old
+302     0B   https://www.goibibo.com/config.ini.old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.ini.old
+302     0B   https://www.goibibo.com/config.php.swp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.swp
+302     0B   https://www.goibibo.com/config.dat    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.dat
+302     0B   https://www.goibibo.com/config.source    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.source
+302     0B   https://www.goibibo.com/config.php.inc~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.inc~
+302     0B   https://www.goibibo.com/config.php~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php~
+302     0B   https://www.goibibo.com/config.php.zip    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.zip
+302     0B   https://www.goibibo.com/config.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.properties
+302     0B   https://www.goibibo.com/config.php.save    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.save
+302     0B   https://www.goibibo.com/config.php.dist    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.dist
+302     0B   https://www.goibibo.com/config.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.json
+302     0B   https://www.goibibo.com/config.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.sql
+302     0B   https://www.goibibo.com/config.ini.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.ini.bak
+302     0B   https://www.goibibo.com/config.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.xml
+302     0B   https://www.goibibo.com/config.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.yml
+302     0B   https://www.goibibo.com/config.php.bkp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.bkp
+302     0B   https://www.goibibo.com/Config/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Config/
+302     0B   https://www.goibibo.com/config.sub    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.sub
+302     0B   https://www.goibibo.com/config/apc.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/apc.php
+302     0B   https://www.goibibo.com/config.swp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.swp
+302     0B   https://www.goibibo.com/config/app.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/app.yml
+302     0B   https://www.goibibo.com/config/AppData.config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/AppData.config
+302     0B   https://www.goibibo.com/config.json.cfm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.json.cfm
+302     0B   https://www.goibibo.com/config.local.php_old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.local.php_old
+302     0B   https://www.goibibo.com/config.php.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.php.txt
+302     0B   https://www.goibibo.com/config/config.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/config.inc
+302     0B   https://www.goibibo.com/config.ru    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.ru
+302     0B   https://www.goibibo.com/config/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/
+302     0B   https://www.goibibo.com/config/autoload/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/autoload/
+302     0B   https://www.goibibo.com/config/database.yml.pgsql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/database.yml.pgsql
+302     0B   https://www.goibibo.com/config/aws.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/aws.yml
+302     0B   https://www.goibibo.com/config.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.txt
+302     0B   https://www.goibibo.com/config/database.yml~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/database.yml~
+302     0B   https://www.goibibo.com/config.rb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config.rb
+302     0B   https://www.goibibo.com/config/config.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/config.ini
+302     0B   https://www.goibibo.com/config/development/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/development/
+302     0B   https://www.goibibo.com/config/db.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/db.inc
+302     0B   https://www.goibibo.com/config/app.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/app.php
+302     0B   https://www.goibibo.com/config/database.yml.sqlite3    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/database.yml.sqlite3
+302     0B   https://www.goibibo.com/config/monkcheckout.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/monkcheckout.ini
+302     0B   https://www.goibibo.com/config/banned_words.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/banned_words.txt
+302     0B   https://www.goibibo.com/config/monkdonate.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/monkdonate.ini
+302     0B   https://www.goibibo.com/config/database.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/database.yml
+302     0B   https://www.goibibo.com/config/master.key    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/master.key
+302     0B   https://www.goibibo.com/config/producao.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/producao.ini
+302     0B   https://www.goibibo.com/config/settings.local.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/settings.local.yml
+302     0B   https://www.goibibo.com/config/settings.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/settings.ini
+302     0B   https://www.goibibo.com/config/databases.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/databases.yml
+302     0B   https://www.goibibo.com/config/initializers/secret_token.rb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/initializers/secret_token.rb
+302     0B   https://www.goibibo.com/config/site.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/site.php
+302     0B   https://www.goibibo.com/config/xml/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/xml/
+302     0B   https://www.goibibo.com/config_override.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config_override.php
+302     0B   https://www.goibibo.com/configprops    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configprops
+302     0B   https://www.goibibo.com/Configs/authServerSettings.config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Configs/authServerSettings.config
+302     0B   https://www.goibibo.com/config/settings.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/settings.inc
+302     0B   https://www.goibibo.com/config/monkid.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/monkid.ini
+302     0B   https://www.goibibo.com/configuration.inc.php~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.inc.php~
+302     0B   https://www.goibibo.com/config/routes.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/routes.yml
+302     0B   https://www.goibibo.com/configuration.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php
+302     0B   https://www.goibibo.com/configuration.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.ini
+302     0B   https://www.goibibo.com/configs/conf_bdd.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configs/conf_bdd.ini
+302     0B   https://www.goibibo.com/config/settings.ini.cfm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/settings.ini.cfm
+302     0B   https://www.goibibo.com/configs/conf_zepass.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configs/conf_zepass.ini
+302     0B   https://www.goibibo.com/configuration.php.old    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.old
+302     0B   https://www.goibibo.com/Configs/Current/authServerSettings.config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Configs/Current/authServerSettings.config
+302     0B   https://www.goibibo.com/configuration.php.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.txt
+302     0B   https://www.goibibo.com/configuration.php.swp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.swp
+302     0B   https://www.goibibo.com/configuration.php~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php~
+302     0B   https://www.goibibo.com/configuration.php.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.bak
+302     0B   https://www.goibibo.com/configuration.php.save    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.save
+302     0B   https://www.goibibo.com/configuration.swp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.swp
+302     0B   https://www.goibibo.com/configuration.php.zip    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.zip
+302     0B   https://www.goibibo.com/configuration/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration/
+302     0B   https://www.goibibo.com/configs/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configs/
+302     0B   https://www.goibibo.com/configure.php.bak    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configure.php.bak
+302     0B   https://www.goibibo.com/configuration.php.dist    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration.php.dist
+302     0B   https://www.goibibo.com/config~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config~
+302     0B   https://www.goibibo.com/config/settings/production.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/config/settings/production.yml
+302     0B   https://www.goibibo.com/confirmation.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confirmation.php
+302     0B   https://www.goibibo.com/confirmation.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confirmation.html
+302     0B   https://www.goibibo.com/configuration~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configuration~
+302     0B   https://www.goibibo.com/configure    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configure
+302     0B   https://www.goibibo.com/configure.scan    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configure.scan
+302     0B   https://www.goibibo.com/confluence/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/
+302     0B   https://www.goibibo.com/confirmation.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confirmation.jsp
+302     0B   https://www.goibibo.com/confluence/pages/listpermissionpages.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/pages/listpermissionpages.action
+302     0B   https://www.goibibo.com/configure.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/configure.php
+302     0B   https://www.goibibo.com/conflg.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conflg.php
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/consumers/add    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/consumers/add
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/consumers/list    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/consumers/list
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/service-providers/add    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/service-providers/add
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/update-consumer-info    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/update-consumer-info
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/consumers/add-manually    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/consumers/add-manually
+302     0B   https://www.goibibo.com/confluence/admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/admin
+302     0B   https://www.goibibo.com/confluence/pages/templates/createpagetemplate.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/pages/templates/createpagetemplate.action
+302     0B   https://www.goibibo.com/confluence/spaces/addmailaccount.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/addmailaccount.action
+302     0B   https://www.goibibo.com/confluence/spaces/spacepermissions.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/spacepermissions.action
+302     0B   https://www.goibibo.com/confluence/spaces/exportspacexml.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/exportspacexml.action
+302     0B   https://www.goibibo.com/confluence/spaces/importpages.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/importpages.action
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/view-consumer-info    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/view-consumer-info
+302     0B   https://www.goibibo.com/confirmation.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confirmation.js
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/upm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/upm
+302     0B   https://www.goibibo.com/confluence/spaces/exportspacehtml.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/exportspacehtml.action
+302     0B   https://www.goibibo.com/confluence/spaces/flyingpdf/flyingpdf.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/flyingpdf/flyingpdf.action
+302     0B   https://www.goibibo.com/conn.asp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conn.asp
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/oauth/service-providers/list    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/oauth/service-providers/list
+302     0B   https://www.goibibo.com/connect    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connect
+302     0B   https://www.goibibo.com/confluence/spaces/removespace.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/removespace.action
+302     0B   https://www.goibibo.com/CONNECT    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CONNECT
+302     0B   https://www.goibibo.com/confirmation.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confirmation.aspx
+302     0B   https://www.goibibo.com/Connections    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Connections
+302     0B   https://www.goibibo.com/confluence/pages/templates/listpagetemplates.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/pages/templates/listpagetemplates.action
+302     0B   https://www.goibibo.com/connections    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connections
+302     0B   https://www.goibibo.com/conf~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/conf~
+302     0B   https://www.goibibo.com/connections.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connections.jsp
+302     0B   https://www.goibibo.com/connections.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connections.aspx
+302     0B   https://www.goibibo.com/connect.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connect.inc
+302     0B   https://www.goibibo.com/connections.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connections.php
+302     0B   https://www.goibibo.com/confluence/plugins/servlet/embedded-crowd    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/plugins/servlet/embedded-crowd
+302     0B   https://www.goibibo.com/confluence/spaces/importmbox.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/importmbox.action
+302     0B   https://www.goibibo.com/console.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console.aspx
+302     0B   https://www.goibibo.com/console.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console.html
+302     0B   https://www.goibibo.com/console.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console.jsp
+302     0B   https://www.goibibo.com/console.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console.js
+302     0B   https://www.goibibo.com/connections.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connections.js
+302     0B   https://www.goibibo.com/console    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console
+302     0B   https://www.goibibo.com/ConsoleHelp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ConsoleHelp
+302     0B   https://www.goibibo.com/consul/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/consul/
+302     0B   https://www.goibibo.com/console.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console.php
+302     0B   https://www.goibibo.com/connections.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/connections.html
+302     0B   https://www.goibibo.com/consumer    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/consumer
+302     0B   https://www.goibibo.com/confluence/spaces/viewmailaccounts.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/confluence/spaces/viewmailaccounts.action
+302     0B   https://www.goibibo.com/console/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console/
+302     0B   https://www.goibibo.com/contact.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact.jsp
+302     0B   https://www.goibibo.com/console/j_security_check    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console/j_security_check
+302     0B   https://www.goibibo.com/console/login/LoginForm.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console/login/LoginForm.jsp
+302     0B   https://www.goibibo.com/contact.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact.js
+302     0B   https://www.goibibo.com/contact_admin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_admin.php
+302     0B   https://www.goibibo.com/contact.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact.html
+302     0B   https://www.goibibo.com/contact.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact.php
+302     0B   https://www.goibibo.com/contact    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact
+302     0B   https://www.goibibo.com/console/base/config.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console/base/config.json
+302     0B   https://www.goibibo.com/contact_admin.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_admin.html
+302     0B   https://www.goibibo.com/console/payments/config.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/console/payments/config.json
+302     0B   https://www.goibibo.com/contact_us.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_us.aspx
+302     0B   https://www.goibibo.com/contact_us    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_us
+302     0B   https://www.goibibo.com/contact_us.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_us.js
+302     0B   https://www.goibibo.com/contact_us.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_us.jsp
+302     0B   https://www.goibibo.com/contact_us.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_us.php
+302     0B   https://www.goibibo.com/contact_admin.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_admin.jsp
+302     0B   https://www.goibibo.com/contacts    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contacts
+302     0B   https://www.goibibo.com/contactus    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contactus
+302     0B   https://www.goibibo.com/contact_admin.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_admin.js
+302     0B   https://www.goibibo.com/contactus.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contactus.aspx
+302     0B   https://www.goibibo.com/contactus.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contactus.html
+302     0B   https://www.goibibo.com/contact_us.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_us.html
+302     0B   https://www.goibibo.com/contact.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact.aspx
+302     0B   https://www.goibibo.com/contact_admin.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contact_admin.aspx
+302     0B   https://www.goibibo.com/contactus.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contactus.jsp
+302     0B   https://www.goibibo.com/contactus.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contactus.php
+302     0B   https://www.goibibo.com/content    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content
+302     0B   https://www.goibibo.com/content.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content.jsp
+302     0B   https://www.goibibo.com/content.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content.html
+302     0B   https://www.goibibo.com/content/debug.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content/debug.log
+302     0B   https://www.goibibo.com/contents    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contents
+302     0B   https://www.goibibo.com/content.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content.js
+302     0B   https://www.goibibo.com/context.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/context.json
+302     0B   https://www.goibibo.com/contributing.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributing.md
+302     0B   https://www.goibibo.com/contactus.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contactus.js
+302     0B   https://www.goibibo.com/contributor.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributor.aspx
+302     0B   https://www.goibibo.com/contributor    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributor
+302     0B   https://www.goibibo.com/content.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content.aspx
+302     0B   https://www.goibibo.com/contributor.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributor.jsp
+302     0B   https://www.goibibo.com/content/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content/
+302     0B   https://www.goibibo.com/contributor.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributor.html
+302     0B   https://www.goibibo.com/CONTRIBUTING.md    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CONTRIBUTING.md
+302     0B   https://www.goibibo.com/content_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content_admin
+302     0B   https://www.goibibo.com/contributor.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributor.js
+302     0B   https://www.goibibo.com/control    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/control
+302     0B   https://www.goibibo.com/control.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/control.php
+302     0B   https://www.goibibo.com/control/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/control/
+302     0B   https://www.goibibo.com/contentadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contentadmin
+302     0B   https://www.goibibo.com/content.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/content.php
+302     0B   https://www.goibibo.com/controller.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controller.php
+302     0B   https://www.goibibo.com/controller/registry    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controller/registry
+302     0B   https://www.goibibo.com/ControllerServlet    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/ControllerServlet
+302     0B   https://www.goibibo.com/controlpanel    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel
+302     0B   https://www.goibibo.com/controlpanel.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.php
+302     0B   https://www.goibibo.com/controlpanel.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.aspx
+302     0B   https://www.goibibo.com/controlpanel.htm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.htm
+302     0B   https://www.goibibo.com/controlpanel.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.js
+302     0B   https://www.goibibo.com/contributors.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributors.txt
+302     0B   https://www.goibibo.com/controlpanel.shtml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.shtml
+302     0B   https://www.goibibo.com/controller/config    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controller/config
+302     0B   https://www.goibibo.com/contributor.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/contributor.php
+302     0B   https://www.goibibo.com/controllers/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controllers/
+302     0B   https://www.goibibo.com/controller    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controller
+302     0B   https://www.goibibo.com/control/login    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/control/login
+302     0B   https://www.goibibo.com/cookie.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cookie.php
+302     0B   https://www.goibibo.com/controlpanel.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.html
+302     0B   https://www.goibibo.com/cookie_usage.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cookie_usage.php
+302     0B   https://www.goibibo.com/CookieExample    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CookieExample
+302     0B   https://www.goibibo.com/controlpanel/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel/
+302     0B   https://www.goibibo.com/cookbooks    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cookbooks
+302     0B   https://www.goibibo.com/cookies    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cookies
+302     0B   https://www.goibibo.com/COPYING    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/COPYING
+302     0B   https://www.goibibo.com/COPYRIGHT.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/COPYRIGHT.txt
+302     0B   https://www.goibibo.com/copyright    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/copyright
+302     0B   https://www.goibibo.com/core/fragments/moduleInfo.phtml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/core/fragments/moduleInfo.phtml
+302     0B   https://www.goibibo.com/core/latest/swagger-ui/index.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/core/latest/swagger-ui/index.html
+302     0B   https://www.goibibo.com/count.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/count.php
+302     0B   https://www.goibibo.com/cookie    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cookie
+302     0B   https://www.goibibo.com/controlpanel.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/controlpanel.jsp
+302     0B   https://www.goibibo.com/coppermine    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/coppermine
+302     0B   https://www.goibibo.com/core    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/core
+302     0B   https://www.goibibo.com/count.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/count.js
+302     0B   https://www.goibibo.com/count_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/count_admin
+302     0B   https://www.goibibo.com/counters    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/counters
+302     0B   https://www.goibibo.com/corporate    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/corporate
+302     0B   https://www.goibibo.com/count.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/count.jsp
+302     0B   https://www.goibibo.com/count.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/count.html
+302     0B   https://www.goibibo.com/counter    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/counter
+302     0B   https://www.goibibo.com/cover_db/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cover_db/
+302     0B   https://www.goibibo.com/coverage.data    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/coverage.data
+302     0B   https://www.goibibo.com/coverage.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/coverage.xml
+302     0B   https://www.goibibo.com/count.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/count.aspx
+302     0B   https://www.goibibo.com/cowadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cowadmin
+302     0B   https://www.goibibo.com/cp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp
+302     0B   https://www.goibibo.com/cp.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp.php
+302     0B   https://www.goibibo.com/cp/Shares?user=&protocol=webaccess&v=2.3    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp/Shares?user=&protocol=webaccess&v=2.3
+302     0B   https://www.goibibo.com/cp.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp.jsp
+302     0B   https://www.goibibo.com/cp/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp/
+302     0B   https://www.goibibo.com/cpanel    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpanel
+302     0B   https://www.goibibo.com/coupons_admin_cp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/coupons_admin_cp
+302     0B   https://www.goibibo.com/cover    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cover
+302     0B   https://www.goibibo.com/coverage    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/coverage
+302     0B   https://www.goibibo.com/cpbackup-exclude.conf    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpbackup-exclude.conf
+302     0B   https://www.goibibo.com/cp.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp.html
+302     0B   https://www.goibibo.com/cpbt.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpbt.php
+302     0B   https://www.goibibo.com/coverage/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/coverage/
+302     0B   https://www.goibibo.com/cpsadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpsadmin
+302     0B   https://www.goibibo.com/cp.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp.js
+302     0B   https://www.goibibo.com/cpanel.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpanel.php
+302     0B   https://www.goibibo.com/crack    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crack
+302     0B   https://www.goibibo.com/Cpanel.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Cpanel.php
+302     0B   https://www.goibibo.com/cp.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cp.aspx
+302     0B   https://www.goibibo.com/cpanel_file/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpanel_file/
+302     0B   https://www.goibibo.com/craft/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/craft/
+302     0B   https://www.goibibo.com/cpg    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpg
+302     0B   https://www.goibibo.com/create_account.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/create_account.php
+302     0B   https://www.goibibo.com/cpn.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpn.php
+302     0B   https://www.goibibo.com/create_account.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/create_account.jsp
+302     0B   https://www.goibibo.com/create_account.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/create_account.js
+302     0B   https://www.goibibo.com/create_account.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/create_account.html
+302     0B   https://www.goibibo.com/createmeta    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/createmeta
+302     0B   https://www.goibibo.com/create_account.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/create_account.aspx
+302     0B   https://www.goibibo.com/cpadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpadmin
+302     0B   https://www.goibibo.com/credentials    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/credentials
+302     0B   https://www.goibibo.com/credentials.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/credentials.txt
+302     0B   https://www.goibibo.com/crash.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crash.log
+302     0B   https://www.goibibo.com/credentials.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/credentials.xml
+302     0B   https://www.goibibo.com/creo_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/creo_admin
+302     0B   https://www.goibibo.com/CREDITS    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CREDITS
+302     0B   https://www.goibibo.com/crm/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crm/
+302     0B   https://www.goibibo.com/credentials.csv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/credentials.csv
+302     0B   https://www.goibibo.com/cron.sh    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron.sh
+302     0B   https://www.goibibo.com/cron.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron.php
+302     0B   https://www.goibibo.com/cpanel/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cpanel/
+302     0B   https://www.goibibo.com/credentials/gcloud.json    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/credentials/gcloud.json
+302     0B   https://www.goibibo.com/cron_import.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron_import.log
+302     0B   https://www.goibibo.com/cron_sku.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron_sku.log
+302     0B   https://www.goibibo.com/crm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crm
+302     0B   https://www.goibibo.com/cron    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron
+302     0B   https://www.goibibo.com/crossdomain.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crossdomain.xml
+302     0B   https://www.goibibo.com/cron/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron/
+302     0B   https://www.goibibo.com/crowd/console/login.action    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crowd/console/login.action
+302     0B   https://www.goibibo.com/crond/logs/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crond/logs/
+302     0B   https://www.goibibo.com/crownadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crownadmin
+302     0B   https://www.goibibo.com/cs    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cs
+302     0B   https://www.goibibo.com/cs-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cs-admin
+302     0B   https://www.goibibo.com/cron.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron.log
+302     0B   https://www.goibibo.com/cronlog.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cronlog.txt
+302     0B   https://www.goibibo.com/cscockpit    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cscockpit
+302     0B   https://www.goibibo.com/credentials/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/credentials/
+200     0B   https://www.goibibo.com/csp/gateway/slc/api/swagger-ui.html
+302     0B   https://www.goibibo.com/css    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/css
+302     0B   https://www.goibibo.com/crx/de/index.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crx/de/index.jsp
+302     0B   https://www.goibibo.com/css.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/css.php
+302     0B   https://www.goibibo.com/csv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/csv
+302     0B   https://www.goibibo.com/csadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/csadmin
+302     0B   https://www.goibibo.com/csx/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/csx/
+302     0B   https://www.goibibo.com/csdp.cache    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/csdp.cache
+302     0B   https://www.goibibo.com/crond/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/crond/
+302     0B   https://www.goibibo.com/CTCWebService/CTCWebServiceBean?wsdl    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CTCWebService/CTCWebServiceBean?wsdl
+302     0B   https://www.goibibo.com/CTestTestfile.cmake    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CTestTestfile.cmake
+302     0B   https://www.goibibo.com/culeadora.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/culeadora.txt
+302     0B   https://www.goibibo.com/cs_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cs_admin
+302     0B   https://www.goibibo.com/current    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/current
+302     0B   https://www.goibibo.com/custom.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom.aspx
+302     0B   https://www.goibibo.com/cron/cron.sh    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cron/cron.sh
+302     0B   https://www.goibibo.com/CTCWebService/CTCWebServiceBean    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CTCWebService/CTCWebServiceBean
+302     0B   https://www.goibibo.com/cscockpit/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cscockpit/
+302     0B   https://www.goibibo.com/custom.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom.jsp
+302     0B   https://www.goibibo.com/custom.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom.html
+302     0B   https://www.goibibo.com/custom.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom.js
+302     0B   https://www.goibibo.com/custom/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom/
+302     0B   https://www.goibibo.com/custom/db.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom/db.ini
+302     0B   https://www.goibibo.com/customavatars    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customavatars
+302     0B   https://www.goibibo.com/cubecart    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cubecart
+302     0B   https://www.goibibo.com/customer_login/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customer_login/
+302     0B   https://www.goibibo.com/customers    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers
+302     0B   https://www.goibibo.com/customers.csv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.csv
+302     0B   https://www.goibibo.com/customers.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.log
+302     0B   https://www.goibibo.com/customers.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.mdb
+302     0B   https://www.goibibo.com/customers.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.sql
+302     0B   https://www.goibibo.com/customers.sql.gz    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.sql.gz
+302     0B   https://www.goibibo.com/customer    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customer
+302     0B   https://www.goibibo.com/customer/user/signup    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customer/user/signup
+302     0B   https://www.goibibo.com/customers.sqlite    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.sqlite
+302     0B   https://www.goibibo.com/customers.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.txt
+302     0B   https://www.goibibo.com/CVS/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CVS/
+302     0B   https://www.goibibo.com/custom.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/custom.php
+302     0B   https://www.goibibo.com/CVS/Entries    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CVS/Entries
+302     0B   https://www.goibibo.com/cvs/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cvs/
+302     0B   https://www.goibibo.com/d    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/d
+302     0B   https://www.goibibo.com/d.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/d.php
+302     0B   https://www.goibibo.com/d0main.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/d0main.php
+302     0B   https://www.goibibo.com/dashboard.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard.aspx
+302     0B   https://www.goibibo.com/dad    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dad
+302     0B   https://www.goibibo.com/CVS/Root    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/CVS/Root
+302     0B   https://www.goibibo.com/dadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dadmin
+302     0B   https://www.goibibo.com/cvsadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cvsadmin
+302     0B   https://www.goibibo.com/dam.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dam.php
+302     0B   https://www.goibibo.com/dashboard    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard
+302     0B   https://www.goibibo.com/dashboard.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard.html
+302     0B   https://www.goibibo.com/dashboard.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard.php
+302     0B   https://www.goibibo.com/dashboard/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard/
+302     0B   https://www.goibibo.com/dashboard.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard.jsp
+302     0B   https://www.goibibo.com/dashboard/faq.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard/faq.html
+302     0B   https://www.goibibo.com/cvs    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cvs
+302     0B   https://www.goibibo.com/dashboard/howto.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard/howto.html
+302     0B   https://www.goibibo.com/dashboard/phpinfo.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard/phpinfo.php
+302     0B   https://www.goibibo.com/d0mains.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/d0mains.php
+302     0B   https://www.goibibo.com/customers.xls    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/customers.xls
+302     0B   https://www.goibibo.com/cwadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/cwadmin
+302     0B   https://www.goibibo.com/dat.zip    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dat.zip
+302     0B   https://www.goibibo.com/d0maine.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/d0maine.php
+302     0B   https://www.goibibo.com/data-nseries.tsv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data-nseries.tsv
+302     0B   https://www.goibibo.com/data.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data.mdb
+302     0B   https://www.goibibo.com/dat    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dat
+302     0B   https://www.goibibo.com/dat.tar.gz    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dat.tar.gz
+302     0B   https://www.goibibo.com/data    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data
+302     0B   https://www.goibibo.com/dasbhoard/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dasbhoard/
+302     0B   https://www.goibibo.com/data.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data.txt
+302     0B   https://www.goibibo.com/data/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/
+302     0B   https://www.goibibo.com/data/cache/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/cache/
+302     0B   https://www.goibibo.com/data/debug/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/debug/
+302     0B   https://www.goibibo.com/data.sqlite    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data.sqlite
+302     0B   https://www.goibibo.com/data.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data.sql
+302     0B   https://www.goibibo.com/data.tsv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data.tsv
+302     0B   https://www.goibibo.com/data/DoctrineORMModule/Proxy/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/DoctrineORMModule/Proxy/
+302     0B   https://www.goibibo.com/data/adminer.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/adminer.php
+302     0B   https://www.goibibo.com/data/autosuggest    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/autosuggest
+302     0B   https://www.goibibo.com/data/backups/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/backups/
+302     0B   https://www.goibibo.com/data/sessions/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/sessions/
+302     0B   https://www.goibibo.com/dashboard.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dashboard.js
+302     0B   https://www.goibibo.com/database    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database
+302     0B   https://www.goibibo.com/data/logs/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/logs/
+302     0B   https://www.goibibo.com/data/files/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/files/
+302     0B   https://www.goibibo.com/database.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.log
+302     0B   https://www.goibibo.com/database.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.php
+302     0B   https://www.goibibo.com/database.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.mdb
+302     0B   https://www.goibibo.com/data/DoctrineORMModule/cache/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/DoctrineORMModule/cache/
+302     0B   https://www.goibibo.com/database.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.txt
+302     0B   https://www.goibibo.com/database.csv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.csv
+302     0B   https://www.goibibo.com/database.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.inc
+302     0B   https://www.goibibo.com/database.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.sql
+302     0B   https://www.goibibo.com/database.sqlite    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.sqlite
+302     0B   https://www.goibibo.com/database/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database/
+302     0B   https://www.goibibo.com/data/tmp/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/data/tmp/
+302     0B   https://www.goibibo.com/database/phpmyadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database/phpmyadmin/
+302     0B   https://www.goibibo.com/database.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.yml
+302     0B   https://www.goibibo.com/database/phpMyAdmin2/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database/phpMyAdmin2/
+302     0B   https://www.goibibo.com/database/phpmyadmin2/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database/phpmyadmin2/
+302     0B   https://www.goibibo.com/Database_Backup/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Database_Backup/
+302     0B   https://www.goibibo.com/database_credentials.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database_credentials.inc
+302     0B   https://www.goibibo.com/database/database/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database/database/
+302     0B   https://www.goibibo.com/database/phpMyAdmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database/phpMyAdmin/
+302     0B   https://www.goibibo.com/datasource    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/datasource
+302     0B   https://www.goibibo.com/database_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database_admin
+302     0B   https://www.goibibo.com/DateServlet    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/DateServlet
+302     0B   https://www.goibibo.com/DB    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/DB
+302     0B   https://www.goibibo.com/Database_Administration/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Database_Administration/
+302     0B   https://www.goibibo.com/database.yml.sqlite3    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.yml.sqlite3
+302     0B   https://www.goibibo.com/datadog/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/datadog/
+302     0B   https://www.goibibo.com/db-full.mysql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db-full.mysql
+302     0B   https://www.goibibo.com/database.yml.pgsql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.yml.pgsql
+302     0B   https://www.goibibo.com/db.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.php
+302     0B   https://www.goibibo.com/db-admin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db-admin/
+302     0B   https://www.goibibo.com/db.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.jsp
+302     0B   https://www.goibibo.com/databases.yml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/databases.yml
+302     0B   https://www.goibibo.com/db.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.js
+302     0B   https://www.goibibo.com/dataobject.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dataobject.ini
+302     0B   https://www.goibibo.com/db.ini    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.ini
+302     0B   https://www.goibibo.com/db.csv    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.csv
+302     0B   https://www.goibibo.com/davmail.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/davmail.log
+302     0B   https://www.goibibo.com/database.yml~    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/database.yml~
+302     0B   https://www.goibibo.com/db.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.aspx
+302     0B   https://www.goibibo.com/Db.script    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Db.script
+302     0B   https://www.goibibo.com/db.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.html
+302     0B   https://www.goibibo.com/db.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.sql
+302     0B   https://www.goibibo.com/db.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.xml
+302     0B   https://www.goibibo.com/db.sqlite    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.sqlite
+302     0B   https://www.goibibo.com/db.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.log
+302     0B   https://www.goibibo.com/db.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.inc
+302     0B   https://www.goibibo.com/db    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db
+302     0B   https://www.goibibo.com/db.yaml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.yaml
+302     0B   https://www.goibibo.com/db/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/
+302     0B   https://www.goibibo.com/db-admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db-admin
+302     0B   https://www.goibibo.com/db.sqlite3    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.sqlite3
+302     0B   https://www.goibibo.com/Db.properties    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/Db.properties
+302     0B   https://www.goibibo.com/db/main.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/main.mdb
+302     0B   https://www.goibibo.com/db.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db.mdb
+302     0B   https://www.goibibo.com/db/myadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/myadmin/
+302     0B   https://www.goibibo.com/db/dbadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/dbadmin/
+302     0B   https://www.goibibo.com/db/dbweb/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/dbweb/
+302     0B   https://www.goibibo.com/db/index.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/index.php
+302     0B   https://www.goibibo.com/db/phpMyAdmin-3/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpMyAdmin-3/
+302     0B   https://www.goibibo.com/db/phpMyAdmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpMyAdmin/
+302     0B   https://www.goibibo.com/db/phpMyAdmin2/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpMyAdmin2/
+302     0B   https://www.goibibo.com/db/phpMyAdmin3/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpMyAdmin3/
+302     0B   https://www.goibibo.com/db/webadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/webadmin/
+302     0B   https://www.goibibo.com/db/websql/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/websql/
+302     0B   https://www.goibibo.com/db1.mdb    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db1.mdb
+302     0B   https://www.goibibo.com/db1.sqlite    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db1.sqlite
+302     0B   https://www.goibibo.com/db__.init.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db__.init.php
+302     0B   https://www.goibibo.com/db_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db_admin
+302     0B   https://www.goibibo.com/db/phpmyadmin2/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpmyadmin2/
+302     0B   https://www.goibibo.com/db/phpmyadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpmyadmin/
+302     0B   https://www.goibibo.com/db/sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/sql
+302     0B   https://www.goibibo.com/db2    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db2
+302     0B   https://www.goibibo.com/db_backup.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db_backup.sql
+302     0B   https://www.goibibo.com/db_backups/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db_backups/
+302     0B   https://www.goibibo.com/db_status.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db_status.php
+302     0B   https://www.goibibo.com/dbadmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbadmin
+302     0B   https://www.goibibo.com/db/phpmyadmin3/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpmyadmin3/
+302     0B   https://www.goibibo.com/dbadmin.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbadmin.php
+302     0B   https://www.goibibo.com/dbase    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbase
+302     0B   https://www.goibibo.com/db/db-admin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/db-admin/
+302     0B   https://www.goibibo.com/db_session.init.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db_session.init.php
+302     0B   https://www.goibibo.com/dbaccess.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbaccess.log
+302     0B   https://www.goibibo.com/dbdump.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbdump.sql
+302     0B   https://www.goibibo.com/dbadmin/index.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbadmin/index.php
+302     0B   https://www.goibibo.com/dbfix/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbfix/
+302     0B   https://www.goibibo.com/db/webdb/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/webdb/
+302     0B   https://www.goibibo.com/dcadmin.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dcadmin.cgi
+302     0B   https://www.goibibo.com/de    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/de
+302     0B   https://www.goibibo.com/db/phpMyAdmin-2/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/db/phpMyAdmin-2/
+302     0B   https://www.goibibo.com/de.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/de.aspx
+302     0B   https://www.goibibo.com/de.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/de.html
+302     0B   https://www.goibibo.com/dbadmin/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbadmin/
+302     0B   https://www.goibibo.com/dbweb/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbweb/
+302     0B   https://www.goibibo.com/DEADJOE    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/DEADJOE
+302     0B   https://www.goibibo.com/dbase.sql    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbase.sql
+302     0B   https://www.goibibo.com/de.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/de.php
+302     0B   https://www.goibibo.com/dealeradmin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dealeradmin
+302     0B   https://www.goibibo.com/debug    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug
+302     0B   https://www.goibibo.com/de.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/de.jsp
+302     0B   https://www.goibibo.com/dbexport/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbexport/
+302     0B   https://www.goibibo.com/debug.cgi    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.cgi
+302     0B   https://www.goibibo.com/dead.letter    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dead.letter
+302     0B   https://www.goibibo.com/debug.log    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.log
+302     0B   https://www.goibibo.com/debug.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.php
+302     0B   https://www.goibibo.com/dealer_admin    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dealer_admin
+302     0B   https://www.goibibo.com/debug.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.txt
+302     0B   https://www.goibibo.com/debug-output.txt    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug-output.txt
+302     0B   https://www.goibibo.com/de.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/de.js
+302     0B   https://www.goibibo.com/debug/pprof    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/pprof
+302     0B   https://www.goibibo.com/dbbackup/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/dbbackup/
+302     0B   https://www.goibibo.com/debug.py    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.py
+302     0B   https://www.goibibo.com/debug/pprof/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/pprof/
+302     0B   https://www.goibibo.com/debug.xml    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.xml
+302     0B   https://www.goibibo.com/debug/pprof/profile    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/pprof/profile
+302     0B   https://www.goibibo.com/debug_error.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug_error.jsp
+302     0B   https://www.goibibo.com/debug/pprof/trace    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/pprof/trace
+302     0B   https://www.goibibo.com/default    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default
+302     0B   https://www.goibibo.com/default.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default.jsp
+302     0B   https://www.goibibo.com/default.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default.aspx
+302     0B   https://www.goibibo.com/default.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default.js
+302     0B   https://www.goibibo.com/debug/pprof/goroutine?debug=1    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/pprof/goroutine?debug=1
+302     0B   https://www.goibibo.com/default.htm    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default.htm
+302     0B   https://www.goibibo.com/default2.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default2.php
+302     0B   https://www.goibibo.com/debug.inc    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug.inc
+302     0B   https://www.goibibo.com/default2.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default2.aspx
+302     0B   https://www.goibibo.com/default2.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default2.html
+302     0B   https://www.goibibo.com/default.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default.html
+302     0B   https://www.goibibo.com/debug/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/
+302     0B   https://www.goibibo.com/DefaultWebApp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/DefaultWebApp
+302     0B   https://www.goibibo.com/default2.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default2.js
+302     0B   https://www.goibibo.com/delete    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/delete
+302     0B   https://www.goibibo.com/DELETE    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/DELETE
+302     0B   https://www.goibibo.com/delete.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/delete.php
+302     0B   https://www.goibibo.com/default.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default.php
+302     0B   https://www.goibibo.com/demo.aspx    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo.aspx
+302     0B   https://www.goibibo.com/demo.php    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo.php
+302     0B   https://www.goibibo.com/default2.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/default2.jsp
+302     0B   https://www.goibibo.com/demo    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo
+302     0B   https://www.goibibo.com/debug/pprof/heap    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/debug/pprof/heap
+302     0B   https://www.goibibo.com/demo.jsp    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo.jsp
+302     0B   https://www.goibibo.com/demo/    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo/
+302     0B   https://www.goibibo.com/demo.js    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo.js
+302     0B   https://www.goibibo.com/demo/ejb/index.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo/ejb/index.html
+302     0B   https://www.goibibo.com/demo.html    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo.html
+302     0B   https://www.goibibo.com/demo/ojspext/events/globals.jsa    -> REDIRECTS TO: http://10.2.0.1:2280/cportal/ip/user_login.php?url=https://www.goibibo.com/demo/ojspext/events/globals.jsa

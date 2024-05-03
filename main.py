@@ -73,16 +73,21 @@ def run_wapiti_scan(target_url):
         print(f"An error occurred: {e}")
 
 
-def main(dns: Annotated[str, typer.Option(help="This option is used for doing a DNS recon on a given domain name.\n Use this option followed by a domain name to get details of DNS records associated with that domain")] = "", zap: Annotated[str, typer.Option(help="This option is used for doing a ZAP Spider Active Scan on a given target.\n Use this option followed by a domain name to do an active scan on the domain")] = "", nikto: Annotated[str, typer.Option(help="This option is used for doing a Nikto Active Scan on a given target(Web Server).\n Use this option followed by a ip address to do an scan on the ip's web server")] = "" , nuclei: Annotated[str, typer.Option(help="This option is used for doing a Nuclei Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web server")] = "", wapiti: Annotated[str, typer.Option(help="This option is used for doing a Wapiti Scan on a given target.\n Use this option followed by a proper url to do an scan on the domain's web server")] = "", skipfish: Annotated[str, typer.Option(help="This option is used for doing a Skipfish Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web application")] = ""):
+def main(dns: Annotated[str, typer.Option(help="This option is used for doing a DNS recon on a given domain name.\n Use this option followed by a domain name to get details of DNS records associated with that domain")] = "", zap: Annotated[str, typer.Option(help="This option is used for doing a ZAP Spider Active Scan on a given target.\n Use this option followed by a domain name to do an active scan on the domain")] = "", nikto: Annotated[str, typer.Option(help="This option is used for doing a Nikto Active Scan on a given target(Web Server).\n Use this option followed by a ip address to do an scan on the ip's web server")] = "" , nuclei: Annotated[str, typer.Option(help="This option is used for doing a Nuclei Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web server")] = "", wapiti: Annotated[str, typer.Option(help="This option is used for doing a Wapiti Scan on a given target.\n Use this option followed by a proper url to do an scan on the domain's web server")] = "", skipfish: Annotated[str, typer.Option(help="This option is used for doing a Skipfish Active Scan on a given target.\n Use this option followed by a domain name to do an scan on the domain's web application")] = "", dirsearch: Annotated[str, typer.Option(help="This option is used for doing a Dirsearch Fuzzing on the given target.\n Use this option followed by a domain name to do a fuzz scan on the domain's website")] = ""):
     domain = dns
     z = zap
     ni = nikto
     nuc = nuclei
     wap = wapiti
     skip = skipfish
+    dirs = dirsearch
 
     if wap:
         run_wapiti_scan(wap)
+
+    if dirs:
+        fileName = time.time()
+        os.system(f'python ../dirsearch/dirsearch.py -u {dirs} --format plain -o ./{fileName}_dirsearch.txt')
 
     if skip:
         fileName = time.time()
@@ -113,7 +118,7 @@ def main(dns: Annotated[str, typer.Option(help="This option is used for doing a 
         time.sleep(2)
         print('starting zap scan......')
         zap_scan(z, zap_api_key)
-        # generate_zap_report(zap_api_key)
+        generate_zap_report(zap_api_key)
 
     if ni:
         print(ni)

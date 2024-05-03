@@ -2,7 +2,7 @@ import os
 import json
 import subprocess
 
-with open('cwes.txt', 'r') as fp:
+with open('../cwes.txt', 'r') as fp:
     os.system('rm -f temp_cvemap_op.json')
 
     for line in fp:
@@ -18,7 +18,7 @@ with open('cwes.txt', 'r') as fp:
         data = json.loads(stdout.decode())
         
         if data:
-            with open('cves.txt', 'a') as fp2:
+            with open('../cves.txt', 'a') as fp2:
                 for i in data:
                     if(i['is_template']):
                         cve = i['cve_id']
