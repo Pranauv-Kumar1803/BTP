@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+server: nginx
+date: Thu, 18 Apr 2024 11:29:34 GMT
+content-type: text/html; charset=utf-8
+transfer-encoding: chunked
+Set-Cookie: T=clv55svga04g92b6dwfmycuou-BR1713439774522; Max-Age=31536000; Domain=flipkart.com; Path=/; Expires=Fri, 18 Apr 2025 11:29:34 GMT; Secure; SameSite=None
+
+[...truncated...]

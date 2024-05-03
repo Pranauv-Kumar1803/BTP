@@ -1,0 +1,5 @@
+var child = [
+  { 'dupe': false, 'type': 4, 'name': 'fitness-accessories', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/exercise-fitness/fitness-accessories/', 'fetched': true, 'code': 404, 'len': 1780, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': '[none]', 'missing': true, 'csens': false, 'child_cnt': 5, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x7bdbf7b0 },
+  { 'dupe': false, 'type': 4, 'name': 'yoga', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/exercise-fitness/yoga/', 'fetched': true, 'code': 404, 'len': 1780, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': '[none]', 'missing': true, 'csens': false, 'child_cnt': 46, 'issue_cnt': [ 5, 5, 133, 27, 0 ], 'sig': 0xac1adb },
+  { 'dupe': false, 'type': 8, 'name': 'pr', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/exercise-fitness/pr', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 4, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

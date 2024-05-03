@@ -1,0 +1,4 @@
+var child = [
+  { 'dupe': false, 'type': 8, 'name': 'i', 'dir': 'c0', 'linked': 1, 'url': 'https://www.flipkart.com/khari-foods-premium-brown-dates-khajur-khajoor-fibre-rich-energy-booster-snacks-dates/p/i', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 1, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'itmd29b8d2cdf29e', 'dir': 'c1', 'linked': 5, 'url': 'https://www.flipkart.com/khari-foods-premium-brown-dates-khajur-khajoor-fibre-rich-energy-booster-snacks-dates/p/itmd29b8d2cdf29e', 'fetched': true, 'code': 200, 'len': 400000, 'decl_mime': 'text/html', 'sniff_mime': 'text/html', 'cset': 'utf-8', 'missing': false, 'csens': false, 'child_cnt': 18, 'issue_cnt': [ 11, 18, 28, 22, 0 ], 'sig': 0x7fb5d65 }
+];

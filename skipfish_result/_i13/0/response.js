@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 200 OK\x0aserver: nginx\x0adate: Thu, 18 Apr 2024 11:25:06 GMT\x0acontent-type: text/html; charset=utf-8\x0atransfer-encoding: chunked\x0aSet-Cookie: T=clv55n47l036d0i86t17aepjh-BR1713439505937; Max-Age=31536000; Domain=flipkart.com; Path=/; Expires=Fri, 18 Apr 2025 11:25:05 GMT; Secure; SameSite=None\x0a\x0a[...truncated...]\x0a'}

@@ -1,0 +1,59 @@
+HTTP/1.1 500 Internal Server Error
+server: nginx
+date: Thu, 18 Apr 2024 11:25:13 GMT
+content-type: text/html; charset=utf-8
+content-length: 2222
+content-security-policy: script-src 'self' 'unsafe-eval' https://*.flixcart.com https://*.flixcart.net https://flipkart.d1.sc.omtrdc.net https://dpm.demdex.net https://tnc.phonepe.com https://captcha.px-cdn.net https://js-agent.newrelic.com https://bam.nr-data.net https://www.googletagmanager.com 'nonce-13282846577975549528'; style-src 'self' 'unsafe-inline' https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; img-src 'self' data: blob: https://*.flixcart.com https://*.flixcart.net https://images.ixigo.com https://flipkart.d1.sc.omtrdc.net https://www.facebook.com https://*.fkapi.net https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.in https://www.googleadservices.com https://sp.analytics.yahoo.com https://bat.bing.com https://bat.r.msn.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com; font-src 'self' data: https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://*.youtube.com https://youtube.com https://*.vimeo.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com https://cdemux.appspot.com https://static-assets-web.flixcart.com/ 'nonce-13282846577975549528'; worker-src 'self' https://*.flipkart.com blob:; child-src 'self' https://*.flipkart.com 'nonce-13282846577975549528'; connect-src 'self' *; object-src 'none'; base-uri 'self'; media-src https://static-assets-web.flixcart.com/; report-uri https://csp-flkt.domdog.io/report-uri/flipkart.com/3/1-1
+x-content-security-policy: script-src 'self' 'unsafe-eval' https://*.flixcart.com https://*.flixcart.net https://flipkart.d1.sc.omtrdc.net https://dpm.demdex.net https://tnc.phonepe.com https://captcha.px-cdn.net https://js-agent.newrelic.com https://bam.nr-data.net https://www.googletagmanager.com 'nonce-13282846577975549528'; style-src 'self' 'unsafe-inline' https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; img-src 'self' data: blob: https://*.flixcart.com https://*.flixcart.net https://images.ixigo.com https://flipkart.d1.sc.omtrdc.net https://www.facebook.com https://*.fkapi.net https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.in https://www.googleadservices.com https://sp.analytics.yahoo.com https://bat.bing.com https://bat.r.msn.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com; font-src 'self' data: https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://*.youtube.com https://youtube.com https://*.vimeo.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com https://cdemux.appspot.com https://static-assets-web.flixcart.com/ 'nonce-13282846577975549528'; worker-src 'self' https://*.flipkart.com blob:; child-src 'self' https://*.flipkart.com 'nonce-13282846577975549528'; connect-src 'self' *; object-src 'none'; base-uri 'self'; media-src https://static-assets-web.flixcart.com/; report-uri https://csp-flkt.domdog.io/report-uri/flipkart.com/3/1-1
+x-webkit-csp: script-src 'self' 'unsafe-eval' https://*.flixcart.com https://*.flixcart.net https://flipkart.d1.sc.omtrdc.net https://dpm.demdex.net https://tnc.phonepe.com https://captcha.px-cdn.net https://js-agent.newrelic.com https://bam.nr-data.net https://www.googletagmanager.com 'nonce-13282846577975549528'; style-src 'self' 'unsafe-inline' https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; img-src 'self' data: blob: https://*.flixcart.com https://*.flixcart.net https://images.ixigo.com https://flipkart.d1.sc.omtrdc.net https://www.facebook.com https://*.fkapi.net https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.in https://www.googleadservices.com https://sp.analytics.yahoo.com https://bat.bing.com https://bat.r.msn.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com; font-src 'self' data: https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://*.youtube.com https://youtube.com https://*.vimeo.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com https://cdemux.appspot.com https://static-assets-web.flixcart.com/ 'nonce-13282846577975549528'; worker-src 'self' https://*.flipkart.com blob:; child-src 'self' https://*.flipkart.com 'nonce-13282846577975549528'; connect-src 'self' *; object-src 'none'; base-uri 'self'; media-src https://static-assets-web.flixcart.com/; report-uri https://csp-flkt.domdog.io/report-uri/flipkart.com/3/1-1
+content-security-policy-report-only: form-action 'self'; manifest-src 'self'; report-uri https://csp-flkt.domdog.io/report-uri/flipkart.com/3/2-1
+x-content-security-policy-report-only: form-action 'self'; manifest-src 'self'; report-uri https://csp-flkt.domdog.io/report-uri/flipkart.com/3/2-1
+x-webkit-csp-report-only: form-action 'self'; manifest-src 'self'; report-uri https://csp-flkt.domdog.io/report-uri/flipkart.com/3/2-1
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+Set-Cookie: T=clv55n47l036d0i86t17aepjh-BR1713439505937; Max-Age=31536000; Domain=flipkart.com; Path=/; Expires=Fri, 18 Apr 2025 11:25:12 GMT; Secure; SameSite=None
+Set-Cookie: T=clv55n47l036d0i86t17aepjh-BR1713439505937; Max-Age=31536000; Domain=flipkart.net; Path=/; Expires=Fri, 18 Apr 2025 11:25:12 GMT; Secure; SameSite=None
+accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+
+<!doctype html><html><head><title>Online Shopping India Mobile, Cameras, Lifestyle & more Online @ Flipkart.com</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><style>html,
+		body {
+			font-family: Roboto, arial, tahoma, verdana, sans-serif;
+			height: 100%;
+			margin: 0;
+		}
+
+		.btn {
+			border-radius: 4px;
+			margin-top: 16px;
+			display: inline-block;
+			color: #fff;
+			font-family: inter_semi_bold, Arial, sans-serif;
+			border: none;
+			font-size: inherit;
+			cursor: pointer;
+			width: 328px;
+			height: 40px;
+		}
+
+		.disable_btn {
+			background-color: #808080;
+			cursor: not-allowed;
+		}
+
+		#retry_btn {
+			background-color: #2A55E5;
+			display: none;
+		}</style></head><body><div style="background-color:#2874f0;height:78px;*text-align:center;"><div style="width: 978px;margin: 0 auto;padding-top: 2px;*text-align:left;"><div style="margin-top: 15px; text-align: center"><img width="149" src="http://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fk-logo_9fddff.png" style="border: none;"/></div></div></div><div style="text-align: center; font-size: 14px; padding: 20px; position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%);"><div><img src="https://rukminim2.flixcart.com/www/444/333/promos/28/09/2023/935ce1e9-ca68-4b8c-9e12-f10298bb86d4.png?q=100" id="IMG_3" alt=""/><div style="font-size: 20px; margin-top: 30px; font-weight: 600;">Just a quick repair needed</div><div style="font-size: 17px;  margin-top: 10px; color: #666666;">Hang on, weâ€™re doing everything we can to fix this!</div></div><button class="btn disable_btn" id="timer_text">Retry in 10 sec</button> <button class="btn" id="retry_btn" type="button">Try now</button></div><script nonce="13282846577975549528">let seconds = 10;
+		const timerText = document.getElementById("timer_text")
+		const retryBtn = document.getElementById("retry_btn")
+		// Update the count down every 1 second
+		var timerId = setInterval(function () {
+			timerText.innerHTML = `Retry in ${seconds--} sec`;
+			if (seconds < 0) {
+				clearInterval(timerId);
+				timerText.remove()
+				retryBtn.style.display = "inline"
+			}
+		}, 1000);
+		retryBtn.addEventListener('click', function () { window.location.reload() })</script></body></html>MÅù9

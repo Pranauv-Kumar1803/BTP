@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 400 Bad request\x0aContent-length: 90\x0aCache-Control: no-cache\x0aConnection: close\x0aContent-Type: text/html\x0a\x0a\x3chtml\x3e\x3cbody\x3e\x3ch1\x3e400 Bad request\x3c/h1\x3e\x0aYour browser sent an invalid request.\x0a\x3c/body\x3e\x3c/html\x3e\x0a'}

@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+server: nginx
+date: Thu, 18 Apr 2024 11:27:13 GMT
+content-type: text/html
+content-length: 162
+location: https://www.flipkart.com/search
+accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+!

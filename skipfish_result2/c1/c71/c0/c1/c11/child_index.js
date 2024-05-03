@@ -1,0 +1,3 @@
+var child = [
+  { 'dupe': false, 'type': 128, 'name': 'lal452mv740000001713440002887', 'dir': 'c0', 'linked': 0, 'url': 'https://www.flipkart.com/khari-foods-premium-brown-dates-khajur-khajoor-fibre-rich-energy-booster-snacks-dates/p/itmd29b8d2cdf29e?pid=NDFGAW4XQ65NDKUU&lid=LSTNDFGAW4XQ65NDKUUZS8XXS&marketplace=FLIPKART&store=eat/ltb&srno=b_1_38&otracker=browse&fm=organic&iid=en_iX2G0XlZqMa5tv6lHJwlZsPCiTevarNQFmaCwOqW2YBsuPp3-pj-pUiU81sQF5lVkk4-vo9M0KQNcRPhIx9IpQ%3D%3D&ppt=None&ppn=None&ssid=lal452mv740000001713440002887', 'fetched': true, 'code': 200, 'len': 400000, 'decl_mime': 'text/html', 'sniff_mime': 'text/html', 'cset': 'utf-8', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 1, 0, 22, 9, 0 ], 'sig': 0x7ed2b9c2 }
+];

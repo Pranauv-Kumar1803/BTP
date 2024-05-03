@@ -1,0 +1,6 @@
+var child = [
+  { 'dupe': false, 'type': 4, 'name': 'canvases', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/pens-stationery/art-supplies/canvases/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'drawing-papers', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/pens-stationery/art-supplies/drawing-papers/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 4, 'name': 'printing-blocks', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/pens-stationery/art-supplies/printing-blocks/', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 3, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 8, 'name': 'pr', 'dir': 'c3', 'linked': 2, 'url': 'https://www.flipkart.com/pens-stationery/art-supplies/pr', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 4, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];

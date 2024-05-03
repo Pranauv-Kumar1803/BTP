@@ -1,0 +1,5 @@
+var child = [
+  { 'dupe': false, 'type': 64, 'name': '[blank]=tia', 'dir': 'c0', 'linked': 2, 'url': 'https://www.flipkart.com/6bo/tia/1hx/~cs-rwcda5oz4o/pr?sid=6bo,tia,1hx&collection-tab-name=Latest%20Lifelong%20Projectors', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'collection-tab-name=Latest Lifelong Projectors', 'dir': 'c1', 'linked': 2, 'url': 'https://www.flipkart.com/6bo/tia/1hx/~cs-rwcda5oz4o/pr?sid=6bo,tia,1hx&collection-tab-name=Latest%20Lifelong%20Projectors', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 },
+  { 'dupe': false, 'type': 64, 'name': 'sid=6bo', 'dir': 'c2', 'linked': 2, 'url': 'https://www.flipkart.com/6bo/tia/1hx/~cs-rwcda5oz4o/pr?sid=6bo,tia,1hx&collection-tab-name=Latest%20Lifelong%20Projectors', 'fetched': false, 'error': 'Content not fetched', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0x0 }
+];
