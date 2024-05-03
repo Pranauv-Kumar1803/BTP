@@ -26,7 +26,6 @@ def zap_scan(target, api_key):
     print('Spidering target {}'.format(target))
     zap.spider.scan(target)
     while int(zap.spider.status()) < 100:
-        # Loop until the spider has finished
         print('Spider progress %: {}'.format(zap.spider.status()))
         time.sleep(5)
     print('Spider completed')

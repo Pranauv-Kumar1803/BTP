@@ -8,16 +8,11 @@ import subprocess
 from pprint import pprint
 from zapv2 import ZAPv2
 
+
 zap_api_key = 'u4c9ua43rb2ua97ika3113vl6e'
 
 def start_zap_daemon():
-    # for Windows
-    if os.name == 'nt':
-        os.chdir("E:/Zed Attack Proxy")
-        process = subprocess.Popen(['zap.bat', '-daemon'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    # for Linux based systems
-    else: 
-        os.system('zaproxy -daemon')
+    os.system('zaproxy -daemon')
 
 
 def zap_scan(target, api_key):
@@ -27,7 +22,6 @@ def zap_scan(target, api_key):
     print('Spidering target {}'.format(target))
     zap.spider.scan(target)
     while int(zap.spider.status()) < 100:
-        # Loop until the spider has finished
         print('Spider progress %: {}'.format(zap.spider.status()))
         time.sleep(5)
     print('Spider completed')
@@ -54,9 +48,15 @@ def generate_zap_report(api_key):
         print("ZAP scan report saved as json file")
 
 
-# os.system('echo Starting ZAP Daemon...... ')
-# start_zap_daemon()
-# time.sleep(10)
+os.system('echo Starting ZAP Daemon...... ')
+start_zap_daemon()
+
+time.sleep(10)
+
 os.system('starting the scan now/.........')
 zap_scan("https://www.goibibo.com", zap_api_key)
+
+time.sleep(10)
+
+os.system('generating the report of the scan....')
 generate_zap_report(zap_api_key)
