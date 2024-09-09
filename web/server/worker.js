@@ -13,7 +13,7 @@ const wapiti = async ({url, savePath}) => {
   const outputPath = path.join(wapitiPath, 'wapiti_output.json');
 
   return new Promise((resolve, reject) => {
-    const command = wapiti -u "${url}" --flush-session -o "${outputPath}" --format json;
+    const command = `wapiti -u "${url}" --flush-session -o "${outputPath}" --format json`;
     console.log('Executing command:', command);
 
     exec(command, (err, stdout, stderr) => {
@@ -25,7 +25,7 @@ const wapiti = async ({url, savePath}) => {
       }
       console.log('Wapiti stdout:', stdout);
       console.log('Wapiti stderr:', stderr);
-      resolve(Wapiti scan completed for ${url});
+      resolve(`Wapiti scan completed for ${url}`);
     });
   });
 };
@@ -36,7 +36,7 @@ const skipfish = async ({url, savePath}) => {
   await fse.ensureDir(skipfishPath);
   
   return new Promise((resolve, reject) => {
-    const command = skipfish -o "${skipfishPath}" "${url}";
+    const command = `skipfish -o "${skipfishPath}" "${url}"`;
     console.log('Executing command:', command);
 
     exec(command, (err, stdout, stderr) => {
@@ -48,7 +48,7 @@ const skipfish = async ({url, savePath}) => {
       }
       console.log('Skipfish stdout:', stdout);
       console.log('Skipfish stderr:', stderr);
-      resolve(Skipfish scan completed for ${url});
+      resolve(`Skipfish scan completed for ${url}`);
     });
   });
 };
@@ -60,7 +60,7 @@ const nuclei = async ({url, savePath}) => {
   const outputPath = path.join(nucleiPath, 'nuclei_output.json');
 
   return new Promise((resolve, reject) => {
-    const command = nuclei -u "${url}" -json -o "${outputPath}";
+    const command = `nuclei -u "${url}" -json -o "${outputPath}"`;
     console.log('Executing command:', command);
 
     exec(command, (err, stdout, stderr) => {
@@ -72,7 +72,7 @@ const nuclei = async ({url, savePath}) => {
       }
       console.log('Nuclei stdout:', stdout);
       console.log('Nuclei stderr:', stderr);
-      resolve(Nuclei scan completed for ${url});
+      resolve(`Nuclei scan completed for ${url}`);
     });
   });
 };
@@ -86,6 +86,6 @@ export default async (task) => {
     case 'nuclei':
       return nuclei(task.args);
     default:
-      throw new Error(Unknown function name: ${task.functionName});
+      throw new Error(`Unknown function name: ${task.functionName}`);
   }
 };

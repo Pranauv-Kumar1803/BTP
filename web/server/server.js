@@ -1,5 +1,5 @@
-https://react.dev/reference/react
-just read thru this
+// https://react.dev/reference/react
+// just read thru this
 const express = require('express');
 const Bull = require('bull');
 const Redis = require('ioredis');
@@ -49,7 +49,7 @@ app.post('/run_scan', async (req, res) => {
 
 app.get('/scan_status/:requestId', async (req, res) => {
   const { requestId } = req.params;
-  const status = await redis.get(scan:${requestId});
+  const status = await redis.get(`scan:${requestId}`);
 
   if (!status) {
     return res.status(404).json({ message: "Scan not found" });
@@ -60,27 +60,27 @@ app.get('/scan_status/:requestId', async (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(Server running on port ${port});
+  console.log(`Server running on port ${port}`);
 });
 
 // Worker process
 scanQueue.process(async (job) => {
   const { url, requestId } = job.data;
-  const savePath = output/${requestId};
+  const savePath = `output/${requestId}`;
 
   try {
-    await redis.set(scan:${requestId}, 'in_progress');
+    await redis.set(`scan:${requestId}`, 'in_progress');
 
     const tasks = ['wapiti', 'skipfish', 'nuclei'];
     for (const task of tasks) {
-      await redis.set(scan:${requestId}, running_${task});
+      await redis.set(`scan:${requestId}`, `running_${task}`);
       await runTask(task, { url, savePath });
     }
 
-    await redis.set(scan:${requestId}, 'completed');
+    await redis.set(`scan:${requestId}`, 'completed');
   } catch (error) {
-    console.error(Error processing job ${requestId}:, error);
-    await redis.set(scan:${requestId}, 'failed');
+    console.error(`Error processing job ${requestId}:`, error);
+    await redis.set(`scan:${requestId}`, 'failed');
   }
 });
 

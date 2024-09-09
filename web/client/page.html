@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Results</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container" id="initialView">
+        <h1>OWASP Vulnerability Scanner</h1>
+        <form id="scanForm">
+            <input type="url" id="urlInput" placeholder="Enter URL" required>
+            <button type="submit">Scan</button>
+        </form>
+    </div>
+
+    <div class="container" id="resultView" style="display:none;">
+        <h2>Scan Results Overview</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Threat Risk Meter</h3>
+                <canvas id="riskMeter"></canvas>
+            </div>
+            <div class="grid-item">
+                <h3>Summary Statistics</h3>
+                <ul id="summaryStats"></ul>
+            </div>
+            <div class="grid-item">
+                <h3>Top Vulnerabilities</h3>
+                <ul id="topVulnerabilities"></ul>
+            </div>
+            <div class="grid-item">
+                <h3>Compliance Status</h3>
+                <ul id="complianceStatus"></ul>
+            </div>
+            <div class="grid-item">
+                <h3>Scan Details</h3>
+                <p id="scanDetails"></p>
+            </div>
+            <div class="grid-item">
+                <h3>Historical Data</h3>
+                <canvas id="historicalChart"></canvas>
+            </div>
+        </div>
+
+        <h3>Detailed Vulnerability Table</h3>
+        <table id="resultTable">
+            <thead>
+                <tr>
+                    <th>Vulnerability</th>
+                    <th>Severity</th>
+                    <th>Description</th>
+                    <th>Recommendation</th>
+                    <th>Affected URLs/Resources</th>
+                    <th>References</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h3>Security Recommendations</h3>
+        <p id="generalRecommendations"></p>
+
+        <h3>Next Steps</h3>
+        <p id="nextSteps"></p>
+
+        <h3>Downloadable Report</h3>
+        <button id="downloadReport">Download PDF</button>
+
+        <h3>Feedback and Support</h3>
+        <button id="contactSupport">Contact Support</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
